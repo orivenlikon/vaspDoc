@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<EXTENSION>
+   <LOGICS>
+      <LOGICITEM NAME="Dynamics">
+         <STATE NAME="Dynamics" VERSION="6.0">
+            <PROPERTIES/>
+         </STATE>
+      </LOGICITEM>
+      <LOGICITEM NAME="EnergyServer0D">
+         <STATE NAME="Discover 0D Energy Server" VERSION="6.0">
+            <PROPERTIES/>
+         </STATE>
+      </LOGICITEM>
+      <LOGICITEM NAME="EnergyServer3D">
+         <STATE NAME="Discover 3D Energy Server" VERSION="6.0">
+            <PROPERTIES/>
+         </STATE>
+      </LOGICITEM>
+      <LOGICITEM NAME="EnergyServerManager">
+         <STATE NAME="EnergyServerManager" VERSION="6.0">
+            <PROPERTIES/>
+         </STATE>
+      </LOGICITEM>
+      <LOGICITEM NAME="Forcefield Typing Engine">
+         <STATE NAME="Discover Forcefield Typing" VERSION="6.0">
+            <PROPERTIES/>
+         </STATE>
+      </LOGICITEM>
+      <LOGICITEM NAME="ForcefieldChooser">
+         <STATE NAME="ForcefieldChooser" VERSION="6.0">
+            <PROPERTIES>
+               <PROPERTY NAME="CurrentCookie">
+                  <VALUE>{68B5CE91-FC23-11D3-94C9-00D0B707257C}</VALUE>
+               </PROPERTY>
+               <PROPERTY NAME="ForcefieldDescriptors">
+                  <VALUE>
+                     SMForcefields.ForcefieldDescriptors
+                     <STATE NAME="ForcefieldDescriptors" VERSION="6.0">
+                        <PROPERTIES>
+                           <PROPERTY NAME="ForcefieldDescriptors">
+                              <VALUE>
+                                 <ITEM>
+                                    SMForcefields.ForcefieldDescriptor
+                                    <STATE NAME="ForcefieldDescriptor" VERSION="6.0">
+                                       <PROPERTIES>
+                                          <PROPERTY NAME="Cookie">
+                                             <VALUE>{68B5CE91-FC23-11D3-94C9-00D0B707257C}</VALUE>
+                                          </PROPERTY>
+                                          <PROPERTY NAME="DisplayName">
+                                             <VALUE>compass</VALUE>
+                                          </PROPERTY>
+                                          <PROPERTY NAME="Type">
+                                             <VALUE>129</VALUE>
+                                          </PROPERTY>
+                                          <PROPERTY NAME="PersistedAs">
+                                             <VALUE>%CORE_FOLDER%\Discover\res\compass.frc</VALUE>
+                                          </PROPERTY>
+                                       </PROPERTIES>
+                                    </STATE>
+                                 </ITEM>
+                                 <ITEM>
+                                    SMForcefields.ForcefieldDescriptor
+                                    <STATE NAME="ForcefieldDescriptor" VERSION="6.0">
+                                       <PROPERTIES>
+                                          <PROPERTY NAME="Cookie">
+                                             <VALUE>{68B5CE92-FC23-11D3-94C9-00D0B707257C}</VALUE>
+                                          </PROPERTY>
+                                          <PROPERTY NAME="DisplayName">
+                                             <VALUE>pcff</VALUE>
+                                          </PROPERTY>
+                                          <PROPERTY NAME="Type">
+                                             <VALUE>129</VALUE>
+                                          </PROPERTY>
+                                          <PROPERTY NAME="PersistedAs">
+                                             <VALUE>%CORE_FOLDER%\Discover\res\pcff.frc</VALUE>
+                                          </PROPERTY>
+                                       </PROPERTIES>
+                                    </STATE>
+                                 </ITEM>
+                                 <ITEM>
+                                    SMForcefields.ForcefieldDescriptor
+                                    <STATE NAME="ForcefieldDescriptor" VERSION="6.0">
+                                       <PROPERTIES>
+                                          <PROPERTY NAME="Cookie">
+                                             <VALUE>{68B5CE93-FC23-11D3-94C9-00D0B707257C}</VALUE>
+                                          </PROPERTY>
+                                          <PROPERTY NAME="DisplayName">
+                                             <VALUE>cvff</VALUE>
+                                          </PROPERTY>
+                                          <PROPERTY NAME="Type">
+                                             <VALUE>129</VALUE>
+                                          </PROPERTY>
+                                          <PROPERTY NAME="PersistedAs">
+                                             <VALUE>%CORE_FOLDER%\Discover\res\cvff.frc</VALUE>
+                                          </PROPERTY>
+                                       </PROPERTIES>
+                                    </STATE>
+                                 </ITEM>
+                              </VALUE>
+                           </PROPERTY>
+                        </PROPERTIES>
+                     </STATE>
+                  </VALUE>
+               </PROPERTY>
+            </PROPERTIES>
+         </STATE>
+      </LOGICITEM>
+      <LOGICITEM NAME="Minimizer">
+         <STATE NAME="Minimizer" VERSION="6.0">
+            <PROPERTIES/>
+         </STATE>
+      </LOGICITEM>
+      <LOGICITEM NAME="SimJobTemplate">
+         <STATE NAME="SimJobTemplate" VERSION="6.0">
+            <PROPERTIES>
+               <PROPERTY NAME="ServerNameForDefaultDaemonName">
+                  <VALUE>Discover</VALUE>
+               </PROPERTY>
+            </PROPERTIES>
+         </STATE>
+      </LOGICITEM>
+      <LOGICITEM NAME="SinglePointEnergy">
+         <STATE NAME="Discover Single Point Energy" VERSION="6.0">
+            <PROPERTIES/>
+         </STATE>
+      </LOGICITEM>
+   </LOGICS>
+</EXTENSION>

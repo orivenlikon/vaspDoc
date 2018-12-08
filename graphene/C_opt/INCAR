@@ -4,12 +4,14 @@ SYSTEM = NAME
 ISTART = 0                #*  Read existing wavefunction; if there 
                           # 
 ICHARG = 2                #*  Non-self-consistent: GGA/LDA band structures 
-                          #
-# INIWAV     = 1          #  Random initial wavefunction; otherwise 
+                          #  charge 0 from initial orbits 1 from CHGCAR 2 from Atom
+                          #					10+ non-calculation 
+# INIWAV     = 1          #*  Random initial wavefunction; otherwise 
 # ICORELEVEL = 1          #  Print core levels 
-# NWRITE     = 2          #  Medium-level output 
-# NELECT     = 352        #  No. of electrons: charged cells; be careful 
-# NBANDS     = 35         #  No. of bands 
+# NWRITE     = 2          #*  Medium-level output
+													#  0 1 for long run 2 for shot run 3  4 foe debug  
+# NELECT     = 352        #*  No. of electrons: charged cells; be careful auto 
+# NBANDS     = 35         #  No. of bands auto 
 
 
 #====================Parallelisation===============================================#
@@ -19,8 +21,8 @@ ICHARG = 2                #*  Non-self-consistent: GGA/LDA band structures
 
 
 #===================calculation speed and precision===============================#
-PREC    = Medium  
-#ALGO  = FAST          #  SCF minimisation algorithm; 38/48 combo
+PREC    = Medium  			#* low medium high normal accurate 
+#ALGO  = FAST           #*  SCF minimisation algorithm; 38/48 combo
 # NGX   = 500           #  FFT grid mesh density; nice plots 
 # NGY   = 500           #  FFT grid mesh density 
 # NGZ   = 500           #  FFT grid mesh density 
@@ -28,36 +30,36 @@ PREC    = Medium
 
 ####################################################################################
 #====================Electronic Relaxation=========================================#
-#LREAL     = Auto          # Projection operators: automatic 
-# LREAL   = .FALSE.       # Accurate forces for phonon calculations 
-ENCUT     = 300       
-NELM      = 100           # Max SCF steps,default value 40
-NELMIN    = 5             # Min SCF steps,default value 2, suggest value 4-8
-NELMDL    = -5            
-EDIFF     = 1E-04         #  SCF energy convergence; eV 
+#LREAL     = Auto         # Projection operators: automatic 
+# LREAL   = .FALSE.       #* Accurate forces for phonon calculations 
+ENCUT     = 300       		#*	default EMAX
+NELM      = 100           #* Max SCF steps,default value 40
+NELMIN    = 5             #* Min SCF steps,default value 2, suggest value 4-8
+NELMDL    = -5            #* relaxation step 
+EDIFF     = 1E-04         #* SCF energy convergence; eV 
 # ADDGRID = .TRUE.        #  Increase grid; helps GGA convergence 
 # LASPH   = .TRUE.        #  Non-spherical elements; d/f convergence 
 
 #=====================Ionic Relaxation=============================================#
-EDIFFG = -1E-02           #  Ionic convergence; eV/AA 
-NSW    = 500              #  Max ionic steps 
-IBRION =  2               #  Algorithm: 0-MD; 1-Quasi-New; 2-CG 
+EDIFFG = -1E-02           #* Ionic convergence; eV/AA 
+NSW    = 500              #*  Max ionic steps 
+IBRION =  2               #*  Algorithm: 0-MD; 1-Quasi-New; 2-CG(conjugate gradient ) 
                           #
                           #
-ISIF   =  2               #  Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 7-Vol 
+ISIF   =  2               #*  Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 7-Vol 
                           #
-#ISYM   =  2               #  Symmetry: 0=none; 2=GGA; 3=hybrids 
-ISMEAR =  0               #  Gaussian smearing; metals:1 
-                          # 
+#ISYM   =  2              #*  Symmetry: 0=none; 2=GGA; 3=hybrids 
+ISMEAR =  0               #*  Gaussian smearing; metals:1 
+                          #		-4 tetrahedron method without bloch -5 with bloch  
                           #
-SIGMA  =  0.1             #  Smearing value in eV; metals:0.2 
+SIGMA  =  0.1             #*  Smearing value in eV; metals:0.2 
 
 #POTIM  =  0.5             
 ####################################################################################
 
 #-------------------------addtional correction for higher accuracy----------------------#
- #LDIPOL  = .TRUE.     
- #IDIPOL  = 3             # 1: x, 2:y, 3, z, 4: all
+ #LDIPOL  = .TRUE.     		#*
+ #IDIPOL  = 3             #* 1: x, 2:y, 3, z, 4: all
 
 # LVDW    = .TRUE.        # 0 no correction
 # IVDW    = 11             # 1, or 10 DFT-D2                                                                                                                 
@@ -65,10 +67,10 @@ SIGMA  =  0.1             #  Smearing value in eV; metals:0.2
 #
 
 #==============================Magnetic Calculations======================================#
-#ISPIN   = 2             # Spin polarised DFT
-#VOSKOWN = 1             # Interpolation scheme of Vosko, Wilk and Nusair is used 
+#ISPIN   = 2             #* Spin polarised DFT
+#VOSKOWN = 1             #* Interpolation scheme of Vosko, Wilk and Nusair is used 
 #                         # default 0    
-# MAGMOM  = 5 0           # Initial magnetic momoment on each ion 
+# MAGMOM  = 5 0           #* Initial magnetic momoment on each ion 
 # NUPDOWN = -1            # Enforce spin multiplet 
 # LSORBIT = .TRUE.        # Spin-orbit coupling 
 
@@ -76,10 +78,10 @@ SIGMA  =  0.1             #  Smearing value in eV; metals:0.2
 #-------electronic structure, e.g. DOS, ELF, work function, local potential distribution and the like
 #----------------------------------------------------------------------------------------------------
 # LAECHG  = .TRUE.        # for bader charge analysis
-# LORBIT  =   11          # PAW radii for projected DOS
-# RWIGS   =  1.5 1.5      # Radii for each atomic species 
+# LORBIT  =   11          #* PAW radii for projected DOS
+# RWIGS   =  1.5 1.5      #* Radii for each atomic species 
 # LOPTICS = .TRUE.        # Dielectric functions 
-# NEDOS   =  1000         # DOSCAR points 
+# NEDOS   =  1000         #* DOSCAR points 
 # LVHAR   = .TRUE.
 # LVTOT   = .TRUE.        # determines whether the total local potential-LOCPOT-is written
                           #     default is .FALSE.
@@ -88,8 +90,9 @@ SIGMA  =  0.1             #  Smearing value in eV; metals:0.2
 #LWAVE     = .FALSE.        # determine whether the orbitals--file WAVECAR 
 #LCHARG    = .FALSE.        # and the charge densities--file CHGCAR and CHG--are written
                           #     default is .TRUE.
-
-
+#EMIN=-25									#* ENCUT max
+#EMAX=15									#* ENCUT min
+#LVHAR = .TRUE.						#*
 #-------------------------Decomposed Charge Density-------------------------------#
 # LPARD = .TRUE.          # Generate PARCHG 
 # EINT  = -10 0           # Energy range 
@@ -110,7 +113,7 @@ SIGMA  =  0.1             #  Smearing value in eV; metals:0.2
 
 
 #===================Hybrid-DFT Calculations=========================================#
-# GGA      =  PS          # PBEsol exchange-correlation
+# GGA      =  PS          #* PBEsol exchange-correlation
 # LHFCALC  = .TRUE.       # Activate HF
 # PRECFOCK = Fast         # HF FFT grid
 # NKRED    = 2            # Reduce k-grid-even only
@@ -121,7 +124,7 @@ SIGMA  =  0.1             #  Smearing value in eV; metals:0.2
 # HFSCREEN = 0.207        # Switch to screened exchange; e.g. HSE06
 # AEXX     = 0.25         # 25% HF exchange; e.g. PBE0
 # LDIAG    = .True.       # Diagnolise Eigenvalues
-
+# VOSKOWN  = 1						#* use when adopt PW91
 ## Selects the B3LYP hybrid function
 #LHFCALC = .TRUE. ; GGA = B3 ; AEXX = 0.2 ; AGGAX = 0.72 
 #AGGAC = 0.81 ; ALDAC = 0.19
@@ -143,9 +146,9 @@ SIGMA  =  0.1             #  Smearing value in eV; metals:0.2
 #------------------Molecular Dynamics-----------------------------------------------#
 #-----------------------------------------------------------------------------------#
 # POTIM  =       1        # Timestep in fs
-# TEBEG  =     100        # Start temp K
-# TEEND  =     100        # End temp K
-# SMASS  =       0        # Canonical ensemble
+# TEBEG  =     100        #* Start temp K
+# TEEND  =     100        #* End temp K
+# SMASS  =       0        #* Canonical ensemble	MD-calculation-speed 
 #
 #
 #
