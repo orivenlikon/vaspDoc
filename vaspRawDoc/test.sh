@@ -1,5 +1,7 @@
 #!/bin/sh
-for var in A B C
-do
-echo ¡°var is $var¡±
-done
+
+if [[ ! -f "WAVECAR" ]];then
+touch cache
+else
+mv WAVECAR cache
+fi

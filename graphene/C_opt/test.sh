@@ -1,5 +1,5 @@
 #!/bin/sh
-if [ -d "$../WAVECAR"];then
+if [ -d "$WAVECAR"];then
 echo "yes"
 else 
 echo "no"
