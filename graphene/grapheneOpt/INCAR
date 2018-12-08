@@ -1,0 +1,151 @@
+#iINCAR is the central input file of VASP. It determines ’what to do and how to do it
+SYSTEM = NAME  
+#====================Initialisation===============================================#
+ISTART = 0                #  Read existing wavefunction; if there 
+                          # 
+ICHARG = 2                #  Non-self-consistent: GGA/LDA band structures 
+                          #
+# INIWAV     = 1          #  Random initial wavefunction; otherwise 
+# ICORELEVEL = 1          #  Print core levels 
+# NWRITE     = 2          #  Medium-level output 
+# NELECT     = 352        #  No. of electrons: charged cells; be careful 
+# NBANDS     = 35         #  No. of bands 
+
+
+#====================Parallelisation===============================================#
+# LPLANE   = .TRUE.       #  Real space distribution; supercells 
+# NPAR     = 4            # Max is no. nodes; don't set for hybrids 
+# KPAR     = 2            #  Divides k-grid into separate groups 
+
+
+#===================calculation speed and precision===============================#
+PREC    = Medium  
+#ALGO  = FAST          #  SCF minimisation algorithm; 38/48 combo
+# NGX   = 500           #  FFT grid mesh density; nice plots 
+# NGY   = 500           #  FFT grid mesh density 
+# NGZ   = 500           #  FFT grid mesh density 
+
+
+####################################################################################
+#====================Electronic Relaxation=========================================#
+#LREAL     = Auto          # Projection operators: automatic 
+# LREAL   = .FALSE.       # Accurate forces for phonon calculations 
+ENCUT     = 500       
+NELM      = 100           # Max SCF steps,default value 40
+NELMIN    = 5             # Min SCF steps,default value 2, suggest value 4-8
+NELMDL    = -5            
+EDIFF     = 1E-04         #  SCF energy convergence; eV 
+# ADDGRID = .TRUE.        #  Increase grid; helps GGA convergence 
+# LASPH   = .TRUE.        #  Non-spherical elements; d/f convergence 
+
+#=====================Ionic Relaxation=============================================#
+EDIFFG = -1E-02           #  Ionic convergence; eV/AA 
+NSW    = 500              #  Max ionic steps 
+IBRION =  2               #  Algorithm: 0-MD; 1-Quasi-New; 2-CG 
+                          #
+                          #
+ISIF   =  2               #  Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 7-Vol 
+                          #
+#ISYM   =  2               #  Symmetry: 0=none; 2=GGA; 3=hybrids 
+ISMEAR =  0               #  Gaussian smearing; metals:1 
+                          # 
+                          #
+SIGMA  =  0.1             #  Smearing value in eV; metals:0.2 
+
+#POTIM  =  0.5             
+####################################################################################
+
+#-------------------------addtional correction for higher accuracy----------------------#
+ #LDIPOL  = .TRUE.     
+ #IDIPOL  = 3             # 1: x, 2:y, 3, z, 4: all
+
+# LVDW    = .TRUE.        # 0 no correction
+# IVDW    = 11             # 1, or 10 DFT-D2                                                                                                                 
+#                         # 11 or 12 DFT-D3                                                                                   
+#
+
+#==============================Magnetic Calculations======================================#
+#ISPIN   = 2             # Spin polarised DFT
+#VOSKOWN = 1             # Interpolation scheme of Vosko, Wilk and Nusair is used 
+#                         # default 0    
+# MAGMOM  = 5 0           # Initial magnetic momoment on each ion 
+# NUPDOWN = -1            # Enforce spin multiplet 
+# LSORBIT = .TRUE.        # Spin-orbit coupling 
+
+
+#-------electronic structure, e.g. DOS, ELF, work function, local potential distribution and the like
+#----------------------------------------------------------------------------------------------------
+# LAECHG  = .TRUE.        # for bader charge analysis
+# LORBIT  =   11          # PAW radii for projected DOS
+# RWIGS   =  1.5 1.5      # Radii for each atomic species 
+# LOPTICS = .TRUE.        # Dielectric functions 
+# NEDOS   =  1000         # DOSCAR points 
+# LVHAR   = .TRUE.
+# LVTOT   = .TRUE.        # determines whether the total local potential-LOCPOT-is written
+                          #     default is .FALSE.
+# LELF    = .TRUE.        # create an ELFCAR,it contains ELF:electron localization function 
+                          #     default is .FALSE.
+#LWAVE     = .FALSE.        # determine whether the orbitals--file WAVECAR 
+#LCHARG    = .FALSE.        # and the charge densities--file CHGCAR and CHG--are written
+                          #     default is .TRUE.
+
+
+#-------------------------Decomposed Charge Density-------------------------------#
+# LPARD = .TRUE.          # Generate PARCHG 
+# EINT  = -10 0           # Energy range 
+# NBMOD =  -3             # With reference to Ef 
+# KPUSE =  1              # Over k-points 
+# IBAND =  20             # Over bands
+
+
+#------------------DFT+U Calculations----------------------------------------------#
+#----------------------------------------------------------------------------------#
+# LDAU      = .TRUE.        # Activate DFT+U 
+# LDAUTYPE  = 2             # Dudarev; only U-J matters 
+# LDAUL     = 2 -1          # Orbitals for each species
+# LDAUU     = 2  0          # U for each species
+# LDAUJ     = 0  0          # J for each species
+# LDAUPRINT = 2
+# LMAXMIX   = 4             # Mixing cut-off; 4-d, 6-f
+
+
+#===================Hybrid-DFT Calculations=========================================#
+# GGA      =  PS          # PBEsol exchange-correlation
+# LHFCALC  = .TRUE.       # Activate HF
+# PRECFOCK = Fast         # HF FFT grid
+# NKRED    = 2            # Reduce k-grid-even only
+# ALGO     = DAMPED       # Dampened MD SCF; IALGO=53
+# ALGO     = All          # SCF Combo; ALGO=58
+# TIME     = 0.30         # Timestep for IALGO5X
+# HFLMAX   = 4            # HF cut-off: 4d,6f
+# HFSCREEN = 0.207        # Switch to screened exchange; e.g. HSE06
+# AEXX     = 0.25         # 25% HF exchange; e.g. PBE0
+# LDIAG    = .True.       # Diagnolise Eigenvalues
+
+## Selects the B3LYP hybrid function
+#LHFCALC = .TRUE. ; GGA = B3 ; AEXX = 0.2 ; AGGAX = 0.72 
+#AGGAC = 0.81 ; ALDAC = 0.19
+#ALGO = D ; TIME = 0.4 
+
+## Selects the PBE0  hybrid function
+#LHFCALC = .TRUE. ; 
+#ALGO = D ; TIME = 0.4 
+
+## Selects the HSE06 hybrid function
+#LHFCALC = .TRUE. ; HFSCREEN = 0.2 ; 
+#ALGO = D ; TIME = 0.4 
+
+## Selects HF 
+#LHFCALC = .TRUE. ; AEXX = 1.0 ; ALDAC = 0.0 ; AGGAC = 0
+#ALGO = D ; TIME = 0.4 
+
+
+#------------------Molecular Dynamics-----------------------------------------------#
+#-----------------------------------------------------------------------------------#
+# POTIM  =       1        # Timestep in fs
+# TEBEG  =     100        # Start temp K
+# TEEND  =     100        # End temp K
+# SMASS  =       0        # Canonical ensemble
+#
+#
+#
