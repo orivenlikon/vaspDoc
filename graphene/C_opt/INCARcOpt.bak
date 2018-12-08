@@ -32,7 +32,7 @@ PREC    = Medium  			#* low medium high normal accurate
 #====================Electronic Relaxation=========================================#
 #LREAL     = Auto         # Projection operators: automatic 
 # LREAL   = .FALSE.       #* Accurate forces for phonon calculations 
-#ENCUT     = 300       		#*	default EMAX
+ENCUT     = 300       		#*	default EMAX
 NELM      = 100           #* Max SCF steps,default value 40
 NELMIN    = 5             #* Min SCF steps,default value 2, suggest value 4-8
 NELMDL    = -5            #* relaxation step 

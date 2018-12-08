@@ -1,5 +1,5 @@
-#!/bin.sh
-rm WAVECAR
+#!/bin/sh
+#mv WAVECAR wave
 for i in 150 200 250 300 350 400 450 500 550 600 
 do
 cat > INCAR <<!
@@ -12,6 +12,6 @@ PREC = Medium
 !
 echo "ENCUT=$i eV"
 qsub vasp.5.4.1.pbs
-E='grep "TOTEN" OUTCAR | tail -n 1' | awk'{printf "%12.6" \n", $5}''
-eho $1 $E >>CencutTest
+E=$(grep "TOTEN" OUTCAR)
+echo $i $E >>encutTest
 done
