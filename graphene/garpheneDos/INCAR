@@ -44,7 +44,7 @@ NSW    = 500              #  Max ionic steps
 IBRION =  2               #  Algorithm: 0-MD; 1-Quasi-New; 2-CG 
                           #
                           #
-ISIF   =  2               #  Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 7-Vol 
+ISIF   =  3               #  Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 7-Vol 
                           #
 #ISYM   =  2               #  Symmetry: 0=none; 2=GGA; 3=hybrids 
 ISMEAR =  0               #  Gaussian smearing; metals:1 
