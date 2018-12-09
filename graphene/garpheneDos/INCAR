@@ -39,18 +39,18 @@ EDIFF     = 1E-04         #  SCF energy convergence; eV
 # LASPH   = .TRUE.        #  Non-spherical elements; d/f convergence 
 
 #=====================Ionic Relaxation=============================================#
-EDIFFG = -1E-02           #  Ionic convergence; eV/AA 
-NSW    = 500              #  Max ionic steps 
-IBRION =  2               #  Algorithm: 0-MD; 1-Quasi-New; 2-CG 
+#EDIFFG = -1E-02           #  Ionic convergence; eV/AA 
+#NSW    = 500              #  Max ionic steps 
+#IBRION =  2               #  Algorithm: 0-MD; 1-Quasi-New; 2-CG 
                           #
                           #
-ISIF   =  3               #  Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 7-Vol 
+#ISIF   =  3               #  Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 7-Vol 
                           #
 #ISYM   =  2               #  Symmetry: 0=none; 2=GGA; 3=hybrids 
-ISMEAR =  0               #  Gaussian smearing; metals:1 
+#ISMEAR =  0               #  Gaussian smearing; metals:1 
                           # 
                           #
-SIGMA  =  0.1             #  Smearing value in eV; metals:0.2 
+#SIGMA  =  0.1             #  Smearing value in eV; metals:0.2 
 
 #POTIM  =  0.5             
 ####################################################################################
@@ -58,7 +58,6 @@ SIGMA  =  0.1             #  Smearing value in eV; metals:0.2
 #-------------------------addtional correction for higher accuracy----------------------#
  #LDIPOL  = .TRUE.     
  #IDIPOL  = 3             # 1: x, 2:y, 3, z, 4: all
-
 # LVDW    = .TRUE.        # 0 no correction
 # IVDW    = 11             # 1, or 10 DFT-D2                                                                                                                 
 #                         # 11 or 12 DFT-D3                                                                                   
@@ -76,10 +75,10 @@ SIGMA  =  0.1             #  Smearing value in eV; metals:0.2
 #-------electronic structure, e.g. DOS, ELF, work function, local potential distribution and the like
 #----------------------------------------------------------------------------------------------------
 # LAECHG  = .TRUE.        # for bader charge analysis
-# LORBIT  =   11          # PAW radii for projected DOS
+ LORBIT  =   11          # PAW radii for projected DOS
 # RWIGS   =  1.5 1.5      # Radii for each atomic species 
 # LOPTICS = .TRUE.        # Dielectric functions 
-# NEDOS   =  1000         # DOSCAR points 
+ NEDOS   =  1000         # DOSCAR points 
 # LVHAR   = .TRUE.
 # LVTOT   = .TRUE.        # determines whether the total local potential-LOCPOT-is written
                           #     default is .FALSE.
@@ -88,7 +87,8 @@ SIGMA  =  0.1             #  Smearing value in eV; metals:0.2
 #LWAVE     = .FALSE.        # determine whether the orbitals--file WAVECAR 
 #LCHARG    = .FALSE.        # and the charge densities--file CHGCAR and CHG--are written
                           #     default is .TRUE.
-
+EMAX=25			#	
+EMIN=-15		#
 
 #-------------------------Decomposed Charge Density-------------------------------#
 # LPARD = .TRUE.          # Generate PARCHG 

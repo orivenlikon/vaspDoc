@@ -14,9 +14,14 @@
       </Property>
     </Document>
     <Document>
-      <ID>{CB33D5ED-04C7-45F5-85C1-0FD1D22C7790}</ID>
+      <ID>{06B366EA-B54F-428F-81B5-A905B2766AB9}</ID>
       <Paths>1</Paths>
-      <URL>.\3D Atomistic.xsd</URL>
+      <URL>.\Catome.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{BD50252E-163F-405D-B6CB-7F67727503F3}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneMin.xsd</URL>
       <Property>
         <Name>Visible</Name>
         <Type>11</Type>
@@ -27,8 +32,8 @@
   <ViewRegistry>
     <Frame>
       <Active>false</Active>
-      <Left>0</Left>
-      <Top>0</Top>
+      <Left>33</Left>
+      <Top>54</Top>
       <Width>779</Width>
       <Height>323</Height>
       <Maximized>false</Maximized>
@@ -43,13 +48,13 @@
       <Active>true</Active>
       <Left>26</Left>
       <Top>26</Top>
-      <Width>779</Width>
-      <Height>323</Height>
+      <Width>838</Width>
+      <Height>293</Height>
       <Maximized>false</Maximized>
       <Minimized>false</Minimized>
       <View>
         <Active>true</Active>
-        <DocumentID>{CB33D5ED-04C7-45F5-85C1-0FD1D22C7790}</DocumentID>
+        <DocumentID>{BD50252E-163F-405D-B6CB-7F67727503F3}</DocumentID>
         <Type>SVViewer3D.Viewer3DControl</Type>
       </View>
     </Frame>

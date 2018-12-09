@@ -1,9 +1,9 @@
 #iINCAR is the central input file of VASP. It determines ’what to do and how to do it
 SYSTEM = NAME  
 #====================Initialisation===============================================#
-ISTART = 0                #*  Read existing wavefunction; if there 
+ISTART = 0                #**  Read existing wavefunction; if there 
                           # 
-ICHARG = 2                #*  Non-self-consistent: GGA/LDA band structures 
+ICHARG = 2                #**  Non-self-consistent: GGA/LDA band structures 
                           #  charge 0 from initial orbits 1 from CHGCAR 2 from Atom
                           #					10+ non-calculation 
 # INIWAV     = 1          #*  Random initial wavefunction; otherwise 
@@ -21,7 +21,7 @@ ICHARG = 2                #*  Non-self-consistent: GGA/LDA band structures
 
 
 #===================calculation speed and precision===============================#
-PREC    = Medium  			#* low medium high normal accurate 
+PREC    = Medium  			#** low medium high normal accurate 
 #ALGO  = FAST           #*  SCF minimisation algorithm; 38/48 combo
 # NGX   = 500           #  FFT grid mesh density; nice plots 
 # NGY   = 500           #  FFT grid mesh density 
@@ -32,27 +32,27 @@ PREC    = Medium  			#* low medium high normal accurate
 #====================Electronic Relaxation=========================================#
 #LREAL     = Auto         # Projection operators: automatic 
 # LREAL   = .FALSE.       #* Accurate forces for phonon calculations 
-ENCUT     = 300       		#*	default EMAX
-NELM      = 100           #* Max SCF steps,default value 40
-NELMIN    = 5             #* Min SCF steps,default value 2, suggest value 4-8
-NELMDL    = -5            #* relaxation step 
-EDIFF     = 1E-04         #* SCF energy convergence; eV 
+ENCUT     = 300       		#**	default EMAX
+NELM      = 100           #** Max SCF steps,default value 40
+NELMIN    = 5             #** Min SCF steps,default value 2, suggest value 4-8
+NELMDL    = -5            #** relaxation step 
+EDIFF     = 1E-04         #** SCF energy convergence; eV 
 # ADDGRID = .TRUE.        #  Increase grid; helps GGA convergence 
 # LASPH   = .TRUE.        #  Non-spherical elements; d/f convergence 
 
 #=====================Ionic Relaxation=============================================#
-EDIFFG = -1E-02           #* Ionic convergence; eV/AA 
-NSW    = 500              #*  Max ionic steps 
-IBRION =  2               #*  Algorithm: 0-MD; 1-Quasi-New; 2-CG(conjugate gradient ) 
+EDIFFG = -1E-02           #** Ionic convergence; eV/AA 
+NSW    = 500              #**  Max ionic steps 
+IBRION =  2               #**  Algorithm: 0-MD; 1-Quasi-New; 2-CG(conjugate gradient ) 
                           #
                           #
-ISIF   =  2               #*  Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 7-Vol 
+ISIF   =  2               #**  Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 7-Vol 
                           #
 #ISYM   =  2              #*  Symmetry: 0=none; 2=GGA; 3=hybrids 
-ISMEAR =  0               #*  Gaussian smearing; metals:1 
+ISMEAR =  0               #**  Gaussian smearing; metals:1 
                           #		-4 tetrahedron method without bloch -5 with bloch  
                           #
-SIGMA  =  0.1             #*  Smearing value in eV; metals:0.2 
+SIGMA  =  0.1             #**  Smearing value in eV; metals:0.2 
 
 #POTIM  =  0.5             
 ####################################################################################
@@ -78,10 +78,10 @@ SIGMA  =  0.1             #*  Smearing value in eV; metals:0.2
 #-------electronic structure, e.g. DOS, ELF, work function, local potential distribution and the like
 #----------------------------------------------------------------------------------------------------
 # LAECHG  = .TRUE.        # for bader charge analysis
-# LORBIT  =   11          #* PAW radii for projected DOS
+# LORBIT  =   11          #** PAW radii for projected DOS
 # RWIGS   =  1.5 1.5      #* Radii for each atomic species 
 # LOPTICS = .TRUE.        # Dielectric functions 
-# NEDOS   =  1000         #* DOSCAR points 
+# NEDOS   =  1000         #** DOSCAR points 
 # LVHAR   = .TRUE.
 # LVTOT   = .TRUE.        # determines whether the total local potential-LOCPOT-is written
                           #     default is .FALSE.
@@ -90,8 +90,8 @@ SIGMA  =  0.1             #*  Smearing value in eV; metals:0.2
 #LWAVE     = .FALSE.        # determine whether the orbitals--file WAVECAR 
 #LCHARG    = .FALSE.        # and the charge densities--file CHGCAR and CHG--are written
                           #     default is .TRUE.
-#EMIN=-25									#* ENCUT max
-#EMAX=15									#* ENCUT min
+#EMIN=-25									#** ENCUT max
+#EMAX=15									#** ENCUT min
 #LVHAR = .TRUE.						#*
 #-------------------------Decomposed Charge Density-------------------------------#
 # LPARD = .TRUE.          # Generate PARCHG 
