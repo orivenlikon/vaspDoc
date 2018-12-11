@@ -16,6 +16,8 @@ PREC = Accurate
 !
 echo "ENCUT=$i eV"
 qsub vasp.5.4.1.pbs
+sleep 10
 E=$(grep "TOTEN" OUTCAR | tail -n 1)
-echo $i $E >>encutTest
+T=$(grep "Elapsed time" OUTCAR | tail -n 1)
+echo $i $E $T >>encutTest
 done

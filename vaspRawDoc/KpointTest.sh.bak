@@ -18,5 +18,6 @@ echo "k mesh = $i x $i x $i"
 qsub vasp.5.4.1.pbs
 E=$(grep "TOTEN" OUTCAR | tail -n 1)
 KP=$(grep "irreducible" OUTCAR | tail -n 1)
-echo $i $KP $E >> KpointTest
+T=$(grep "Elapsed time" OUTCAR | tail -n 1)
+echo $i $KP $E $T >> KpointTest
 done
