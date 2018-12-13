@@ -21,24 +21,24 @@ PREC = Accurate
 !
 #PREC    = Medium  			#** low medium high normal accurate 
 
-ENCUT     = 300       		#**	default EMAX
-NELM      = 100           #** Max SCF steps,default value 40
-NELMIN    = 5             #** Min SCF steps,default value 2, suggest value 4-8
-NELMDL    = -5            #** relaxation step 
-EDIFF     = 1E-04         #** SCF energy convergence; eV 
+#ENCUT     = 300       		#**	default EMAX
+#NELM      = 100           #** Max SCF steps,default value 40
+#NELMIN    = 5             #** Min SCF steps,default value 2, suggest value 4-8
+#NELMDL    = -5            #** relaxation step 
+#EDIFF     = 1E-04         #** SCF energy convergence; eV 
 
-EDIFFG = -1E-02           #** Ionic convergence; eV/AA 
-NSW    = 500              #**  Max ionic steps 
-IBRION =  2               #**  Algorithm: 0-MD; 1-Quasi-New; 2-CG(conjugate gradient ) 
+#EDIFFG = -1E-02           #** Ionic convergence; eV/AA 
+#NSW    = 500              #**  Max ionic steps 
+#IBRION =  2               #**  Algorithm: 0-MD; 1-Quasi-New; 2-CG(conjugate gradient ) 
                           #
                           #
-ISIF   =  2               #**  Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 7-Vol 
+#ISIF   =  2               #**  Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 7-Vol 
                           #
 #ISYM   =  2              #*  Symmetry: 0=none; 2=GGA; 3=hybrids 
-ISMEAR =  0               #**  Gaussian smearing; metals:1 
+#ISMEAR =  0               #**  Gaussian smearing; metals:1 
                           #		-4 tetrahedron method without bloch -5 with bloch  
                           #
-SIGMA  =  0.1             #**  Smearing value in eV; metals:0.2 
+#SIGMA  =  0.1             #**  Smearing value in eV; metals:0.2 
 
 echo "ENCUT= $enc eV"
 Enc=$enc
@@ -62,6 +62,7 @@ while [ -z "$T" ];do
 done
 E=$(grep "TOTEN" OUTCAR | tail -n 1)
 KP=$(grep "irreducible" OUTCAR | tail -n 1)
-echo $Enc $k $KP $E $T >>kpointOrEncutTest
+#echo $Enc $k $KP $E $T >>EncutTest
+echo $Enc $k $KP $E $T >>KpointTest
 done
 done
