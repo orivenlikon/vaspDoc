@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<EXTENSION VERSION="6.0">
+<LOGICS>
+<LOGICITEM NAME="FindSymmetryLogic">
+	<STATE NAME="SymmetryBuilderFindSymmetryState" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="DiscriminatingPropertyChoices">
+	<VALUE>
+	<ITEM>true</ITEM>
+	<ITEM>false</ITEM>
+	<ITEM>false</ITEM>
+	<ITEM>false</ITEM>
+	<ITEM>true</ITEM>
+	<ITEM>false</ITEM>
+	<ITEM>false</ITEM>
+	<ITEM>false</ITEM>
+	<ITEM>false</ITEM>
+	<ITEM>false</ITEM>
+	<ITEM>false</ITEM>
+	<ITEM>false</ITEM>
+	<ITEM>false</ITEM>
+	</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="MillerPlaneLogic">
+	<STATE NAME="SymmetryBuilderMillerPlaneState" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="SymmetryBuilderLogic">
+	<STATE NAME="SymmetryBuilderLogicState" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+</LOGICS>
+</EXTENSION>

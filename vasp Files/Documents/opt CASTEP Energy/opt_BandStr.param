@@ -1,0 +1,15 @@
+task : BandStructure
+continuation : default
+spin_polarized : false
+elec_energy_tol :   2.000000000000000e-006
+cut_off_energy :      240.000000000000000
+bs_nextra_bands :       12
+bs_eigenvalue_tol :   1.000000000000000e-005
+calculate_stress : false
+calculate_ELF : false
+popn_calculate : false
+calculate_hirshfeld : false
+calculate_densdiff : false
+pdos_calculate_weights : false
+num_dump_cycles : 0
+bs_write_eigenvalues : true

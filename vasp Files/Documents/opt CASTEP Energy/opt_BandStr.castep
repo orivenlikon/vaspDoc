@@ -1,0 +1,1449 @@
+ Job started on host DESKTOP-R06GA9T
+ at Fri Dec 14 17:09:20 2018
+
+ +-------------------------------------------------+
+ |                                                 |
+ |      CCC   AA    SSS  TTTTT  EEEEE  PPPP        |
+ |     C     A  A  S       T    E      P   P       |
+ |     C     AAAA   SS     T    EEE    PPPP        |
+ |     C     A  A     S    T    E      P           |
+ |      CCC  A  A  SSS     T    EEEEE  P           |
+ |                                                 |
+ +-------------------------------------------------+
+ |                                                 |
+ | Welcome to Materials Studio CASTEP version 6.0  |
+ | Ab Initio Total Energy Program                  |
+ |                                                 |
+ | Authors:                                        |
+ | M. Segall, M. Probert, C. Pickard, P. Hasnip,   |
+ | S. Clark, K. Refson, J. R. Yates, M. Payne      |
+ |                                                 |
+ | Contributors:                                   |
+ | P. Lindan, P. Haynes, J. White, V. Milman,      |
+ | N. Govind, M. Gibson, P. Tulip, V. Cocula,      |
+ | B. Montanari, D. Quigley, M. Glover,            |
+ | L. Bernasconi, A. Perlov, M. Plummer,           |
+ | E. McNellis, J. Meyer, J. Gale, D. Jochym       |
+ | J. Aarons, B. Walker                            |
+ |                                                 |
+ | Copyright (c) 2000 - 2011                       |
+ |                                                 |
+ | Please cite                                     |
+ |                                                 |
+ |     "First principles methods using CASTEP"     |
+ |                                                 |
+ |         Zeitschrift fuer Kristallographie       |
+ |           220(5-6) pp. 567-570 (2005)           |
+ |                                                 |
+ | S. J. Clark, M. D. Segall, C. J. Pickard,       |
+ | P. J. Hasnip, M. J. Probert, K. Refson,         |
+ | M. C. Payne                                     |
+ |                                                 |
+ |       in all publications arising from          |
+ |              your use of CASTEP                 |
+ |                                                 |
+ +-------------------------------------------------+
+ 
+ 
+ This version was compiled for i686-windows-msvc2008 on Dec 08 2011
+ 
+License checkout of MS_castep successful
+ 
+Reading continuation data from model file opt_BandStr.check
+ 
+ Pseudo atomic calculation performed for C 2s2 2p2
+ 
+ Converged in 17 iterations to a total energy of -145.6516 eV
+ 
+Initialising basis set for model.
+Reinitialising basis set for current geometry.
+Continuing from previous run with ground state wavefunction.
+Continuing from previous run with ground state density.
+ Info: CALCULATE_HIRSHFELD modified from T to F
+ Info: POPN_CALCULATE modified from T to F
+ Info: BS_EIGENVALUE_TOL modified from    0.100000E-05 eV to    0.100000E-04 eV
+ Calculation not parallelised.
+
+ ************************************ Title ************************************
+ CASTEP calculation from Materials Studio
+
+ ***************************** General Parameters ******************************
+  
+ output verbosity                               : normal  (1)
+ continuing from                                : opt_BandStr.check
+ write checkpoint data to                       : opt_BandStr.check
+ type of calculation                            : band structure
+ stress calculation                             : off
+ density difference calculation                 : off
+ electron localisation func (ELF) calculation   : off
+ Hirshfeld analysis                             : off
+ unlimited duration calculation
+ timing information                             : on
+ memory usage estimate                          : on
+ write final potential to formatted file        : off
+ write final density to formatted file          : off
+ write BibTeX reference list                    : on
+  
+ output         length unit                     : A
+ output           mass unit                     : amu
+ output           time unit                     : ps
+ output         charge unit                     : e
+ output         energy unit                     : eV
+ output          force unit                     : eV/A
+ output       velocity unit                     : A/ps
+ output       pressure unit                     : GPa
+ output     inv_length unit                     : 1/A
+ output      frequency unit                     : cm-1
+ output force constant unit                     : eV/A**2
+ output         volume unit                     : A**3
+ output   IR intensity unit                     : (D/A)**2/amu
+ output         dipole unit                     : D
+ output         efield unit                     : eV/A/e
+ output        entropy unit                     : J/mol/K
+  
+ wavefunctions paging                           : none
+ data distribution                              : optimal for this architecture
+ optimization strategy                          : balance speed and memory
+
+ *********************** Exchange-Correlation Parameters ***********************
+  
+ using functional                               : Perdew Burke Ernzerhof
+ Divergence correction                          : off
+ DFT+D: Semi-empirical dispersion correction    : off
+
+ ************************* Pseudopotential Parameters **************************
+  
+ pseudopotential representation                 : reciprocal space
+ <beta|phi> representation                      : reciprocal space
+
+ **************************** Basis Set Parameters *****************************
+  
+ plane wave basis set cut-off                   :   240.0000   eV
+ finite basis set correction                    : none
+
+ **************************** Electronic Parameters ****************************
+  
+ number of  electrons                           :  8.000    
+ net charge of system                           :  0.000    
+ net spin   of system                           :  0.000    
+ number of  up  spins                           :  4.000    
+ number of down spins                           :  4.000    
+ treating system as non-spin-polarized
+ number of bands                                :          8
+
+ ********************* Electronic Minimization Parameters **********************
+  
+ Method: Treating system as metallic with density mixing treatment of electrons,
+         and number of  SD  steps               :          1
+         and number of  CG  steps               :          4
+  
+ total energy / atom convergence tol.           : 0.2000E-05   eV
+ eigen-energy convergence tolerance             : 0.5000E-06   eV
+ max force / atom convergence tol.              : ignored
+ convergence tolerance window                   :          3   cycles
+ max. number of SCF cycles                      :        100
+ number of fixed-spin iterations                :         10
+ smearing scheme                                : Gaussian
+ smearing width                                 : 0.1000       eV
+ Fermi energy convergence tolerance             : 0.5000E-07   eV
+
+ ************************** Density Mixing Parameters **************************
+  
+ density-mixing scheme                          : Pulay
+ max. length of mixing history                  :         20
+ charge density mixing amplitude                : 0.5000    
+ cut-off energy for mixing                      :  240.0       eV
+
+ ************************** Band Structure Parameters **************************
+  
+ max. number of iterations                      :         60
+ max. CG steps in BS calc                       :         25
+ number of bands / k-point                      :         16
+ band convergence tolerance                     : 0.1000E-04   eV
+ write orbitals file                            : on
+
+ *******************************************************************************
+  
+ 
+                           -------------------------------
+                                      Unit Cell
+                           -------------------------------
+        Real Lattice(A)                      Reciprocal Lattice(1/A)
+   2.1336090  -1.2318397   0.0000000        2.9448626   0.0000000   0.0000000
+   0.0000000   2.4636795   0.0000000        1.4724313   2.5503258   0.0000000
+   0.0000000   0.0000000   3.2024100        0.0000000   0.0000000   1.9620178
+ 
+                       Lattice parameters(A)       Cell Angles
+                    a =    2.463679          alpha =   90.000000
+                    b =    2.463679          beta  =   90.000000
+                    c =    3.202410          gamma =  120.000000
+ 
+                       Current cell volume =   16.833560       A**3
+ 
+                           -------------------------------
+                                     Cell Contents
+                           -------------------------------
+                         Total number of ions in cell =    2
+                      Total number of species in cell =    1
+                        Max number of any one species =    2
+ 
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            x  Element    Atom        Fractional coordinates of atoms  x
+            x            Number           u          v          w      x
+            x----------------------------------------------------------x
+            x  C            1        -0.333333   0.333333   0.000000   x
+            x  C            2         0.333333  -0.333333   0.000000   x
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ 
+ 
+                         No user defined ionic velocities
+ 
+                           -------------------------------
+                                   Details of Species
+                           -------------------------------
+ 
+                               Mass of species in AMU
+                                    C   12.0109997
+ 
+                          Electric Quadrupole Moment (Barn)
+                                    C    0.0332700 Isotope 11
+ 
+                          Files used for pseudopotentials:
+                                    C C_00PBE.usp
+ 
+                           -------------------------------
+                              k-Points For BZ Sampling
+                           -------------------------------
+                       MP grid size for SCF calculation is  9  9  6
+                         Number of kpoints used =          36
+ 
+             +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+             +  Number       Fractional coordinates        Weight  +
+             +-----------------------------------------------------+
+             +     1   0.444444   0.444444   0.416667   0.0246914  +
+             +     2   0.444444   0.444444   0.250000   0.0246914  +
+             +     3   0.444444   0.444444   0.083333   0.0246914  +
+             +     4   0.444444   0.333333   0.416667   0.0493827  +
+             +     5   0.444444   0.333333   0.250000   0.0493827  +
+             +     6   0.444444   0.333333   0.083333   0.0493827  +
+             +     7   0.444444   0.000000   0.416667   0.0246914  +
+             +     8   0.444444   0.000000   0.250000   0.0246914  +
+             +     9   0.444444   0.000000   0.083333   0.0246914  +
+             +    10   0.444444  -0.111111   0.416667   0.0493827  +
+             +    11   0.444444  -0.111111   0.250000   0.0493827  +
+             +    12   0.444444  -0.111111   0.083333   0.0493827  +
+             +    13   0.444444  -0.222222   0.416667   0.0246914  +
+             +    14   0.444444  -0.222222   0.250000   0.0246914  +
+             +    15   0.444444  -0.222222   0.083333   0.0246914  +
+             +    16   0.333333   0.333333   0.416667   0.0082305  +
+             +    17   0.333333   0.333333   0.250000   0.0082305  +
+             +    18   0.333333   0.333333   0.083333   0.0082305  +
+             +    19   0.333333   0.000000   0.416667   0.0246914  +
+             +    20   0.333333   0.000000   0.250000   0.0246914  +
+             +    21   0.333333   0.000000   0.083333   0.0246914  +
+             +    22   0.333333  -0.111111   0.416667   0.0493827  +
+             +    23   0.333333  -0.111111   0.250000   0.0493827  +
+             +    24   0.333333  -0.111111   0.083333   0.0493827  +
+             +    25   0.222222   0.000000   0.416667   0.0246914  +
+             +    26   0.222222   0.000000   0.250000   0.0246914  +
+             +    27   0.222222   0.000000   0.083333   0.0246914  +
+             +    28   0.222222  -0.111111   0.416667   0.0246914  +
+             +    29   0.222222  -0.111111   0.250000   0.0246914  +
+             +    30   0.222222  -0.111111   0.083333   0.0246914  +
+             +    31   0.111111   0.000000   0.416667   0.0246914  +
+             +    32   0.111111   0.000000   0.250000   0.0246914  +
+             +    33   0.111111   0.000000   0.083333   0.0246914  +
+             +    34   0.000000   0.000000   0.416667   0.0041152  +
+             +    35   0.000000   0.000000   0.250000   0.0041152  +
+             +    36   0.000000   0.000000   0.083333   0.0041152  +
+             +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+                           -------------------------------
+                               Symmetry and Constraints
+                           -------------------------------
+ 
+                      Number of symmetry operations   =          24
+         There are no ionic constraints specified or generated for this cell
+                      Maximum deviation from symmetry =  0.00000         ANG
+               Point group of crystal =    27: D6h, 6/mmm, 6/m 2/m 2/m
+           Set iprint > 1 for details on symmetry rotations/translations
+ 
+                        Centre of mass is NOT constrained
+ 
+                         Number of cell constraints= 4
+                         Cell constraints are:  1 1 3 0 0 0
+ 
+                         External pressure/stress (GPa)
+                          0.00000   0.00000   0.00000
+                                    0.00000   0.00000
+                                              0.00000
+  
++---------------- MEMORY AND SCRATCH DISK ESTIMATES PER NODE -----------------+
+|                                                     Memory          Disk    |
+| Model and support data                               15.8 MB         0.4 MB |
+| Band structure calculation requirements               4.7 MB         2.0 MB |
+|                                               ----------------------------- |
+| Approx. total storage required per node              20.5 MB         2.4 MB |
+|                                                                             |
+| Requirements will fluctuate during execution and may exceed these estimates |
++-----------------------------------------------------------------------------+
+  =====================================================================
+  +  Fermi energy for spin-degenerate system:     5.80685 eV          +
+  +                                                                   +
+  +       B A N D   S T R U C T U R E   C A L C U L A T I O N         +
+  +      (General k-point calculation - complex wavefunctions)        +
+  +                                                                   +
+  + ================================================================= +
+  +                                                                   +
+  +     Band Structure Calculation: Progress report on root node      +
+  +                                                                   +
+  +   There are   53 BS k-points. Root node contains   53 of them.    +
+  +                                                                   +
+  +   Spin= 1 of  1, K-point=   1 of   53 completed, Time:     0.33s. +
+  +   Spin= 1 of  1, K-point=   2 of   53 completed, Time:     0.27s. +
+  +   Spin= 1 of  1, K-point=   3 of   53 completed, Time:     0.27s. +
+  +   Spin= 1 of  1, K-point=   4 of   53 completed, Time:     0.28s. +
+  +   Spin= 1 of  1, K-point=   5 of   53 completed, Time:     0.34s. +
+  +   Spin= 1 of  1, K-point=   6 of   53 completed, Time:     0.30s. +
+  +   Spin= 1 of  1, K-point=   7 of   53 completed, Time:     0.30s. +
+  +   Spin= 1 of  1, K-point=   8 of   53 completed, Time:     0.30s. +
+  +   Spin= 1 of  1, K-point=   9 of   53 completed, Time:     0.27s. +
+  +   Spin= 1 of  1, K-point=  10 of   53 completed, Time:     0.31s. +
+  +   Spin= 1 of  1, K-point=  11 of   53 completed, Time:     0.33s. +
+  +   Spin= 1 of  1, K-point=  12 of   53 completed, Time:     0.28s. +
+  +   Spin= 1 of  1, K-point=  13 of   53 completed, Time:     0.30s. +
+  +   Spin= 1 of  1, K-point=  14 of   53 completed, Time:     0.31s. +
+  +   Spin= 1 of  1, K-point=  15 of   53 completed, Time:     0.39s. +
+  +   Spin= 1 of  1, K-point=  16 of   53 completed, Time:     0.38s. +
+  +   Spin= 1 of  1, K-point=  17 of   53 completed, Time:     0.36s. +
+  +   Spin= 1 of  1, K-point=  18 of   53 completed, Time:     0.33s. +
+  +   Spin= 1 of  1, K-point=  19 of   53 completed, Time:     0.36s. +
+  +   Spin= 1 of  1, K-point=  20 of   53 completed, Time:     0.34s. +
+  +   Spin= 1 of  1, K-point=  21 of   53 completed, Time:     0.34s. +
+  +   Spin= 1 of  1, K-point=  22 of   53 completed, Time:     0.31s. +
+  +   Spin= 1 of  1, K-point=  23 of   53 completed, Time:     0.36s. +
+  +   Spin= 1 of  1, K-point=  24 of   53 completed, Time:     0.34s. +
+  +   Spin= 1 of  1, K-point=  25 of   53 completed, Time:     0.41s. +
+  +   Spin= 1 of  1, K-point=  26 of   53 completed, Time:     0.33s. +
+  +   Spin= 1 of  1, K-point=  27 of   53 completed, Time:     0.38s. +
+  +   Spin= 1 of  1, K-point=  28 of   53 completed, Time:     0.28s. +
+  +   Spin= 1 of  1, K-point=  29 of   53 completed, Time:     0.36s. +
+  +   Spin= 1 of  1, K-point=  30 of   53 completed, Time:     0.34s. +
+  +   Spin= 1 of  1, K-point=  31 of   53 completed, Time:     0.39s. +
+  +   Spin= 1 of  1, K-point=  32 of   53 completed, Time:     0.38s. +
+  +   Spin= 1 of  1, K-point=  33 of   53 completed, Time:     0.30s. +
+  +   Spin= 1 of  1, K-point=  34 of   53 completed, Time:     0.36s. +
+  +   Spin= 1 of  1, K-point=  35 of   53 completed, Time:     0.34s. +
+  +   Spin= 1 of  1, K-point=  36 of   53 completed, Time:     0.36s. +
+  +   Spin= 1 of  1, K-point=  37 of   53 completed, Time:     0.34s. +
+  +   Spin= 1 of  1, K-point=  38 of   53 completed, Time:     0.33s. +
+  +   Spin= 1 of  1, K-point=  39 of   53 completed, Time:     0.36s. +
+  +   Spin= 1 of  1, K-point=  40 of   53 completed, Time:     0.36s. +
+  +   Spin= 1 of  1, K-point=  41 of   53 completed, Time:     0.33s. +
+  +   Spin= 1 of  1, K-point=  42 of   53 completed, Time:     0.36s. +
+  +   Spin= 1 of  1, K-point=  43 of   53 completed, Time:     0.33s. +
+  +   Spin= 1 of  1, K-point=  44 of   53 completed, Time:     0.36s. +
+  +   Spin= 1 of  1, K-point=  45 of   53 completed, Time:     0.38s. +
+  +   Spin= 1 of  1, K-point=  46 of   53 completed, Time:     0.38s. +
+  +   Spin= 1 of  1, K-point=  47 of   53 completed, Time:     0.34s. +
+  +   Spin= 1 of  1, K-point=  48 of   53 completed, Time:     0.44s. +
+  +   Spin= 1 of  1, K-point=  49 of   53 completed, Time:     0.36s. +
+  +   Spin= 1 of  1, K-point=  50 of   53 completed, Time:     0.36s. +
+  +   Spin= 1 of  1, K-point=  51 of   53 completed, Time:     0.36s. +
+  +   Spin= 1 of  1, K-point=  52 of   53 completed, Time:     0.34s. +
+  +   Spin= 1 of  1, K-point=  53 of   53 completed, Time:     0.36s. +
+  +   Finished BS calculation on root node (waiting for other nodes)  +
+  +                                                                   +
+  + ================================================================= +
+  +                       Electronic energies                         +
+  +                       -------------------                         +
+  +                                                                   +
+  +   Band number   Energy in eV                                      +
+  + ================================================================= +
+  +                                                                   +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=    1 (  0.000000  0.000000  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.956904                                       +
+  +           2       -0.468842                                       +
+  +           3        2.955816                                       +
+  +           4        2.966881                                       +
+  +           5       10.548144                                       +
+  +           6       14.200103                                       +
+  +           7       14.210542                                       +
+  +           8       17.753535                                       +
+  +           9       18.008530                                       +
+  +          10       27.799754                                       +
+  +          11       33.817148                                       +
+  +          12       36.750470                                       +
+  +          13       36.750471                                       +
+  +          14       40.361359                                       +
+  +          15       40.363288                                       +
+  +          16       41.478992                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=    2 (  0.000000  0.000000  0.083333) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.930605                                       +
+  +           2       -0.660267                                       +
+  +           3        2.961407                                       +
+  +           4        2.972472                                       +
+  +           5       10.951677                                       +
+  +           6       14.210955                                       +
+  +           7       14.221408                                       +
+  +           8       17.665168                                       +
+  +           9       18.099523                                       +
+  +          10       27.859609                                       +
+  +          11       33.419534                                       +
+  +          12       36.092727                                       +
+  +          13       36.092862                                       +
+  +          14       39.827864                                       +
+  +          15       39.829599                                       +
+  +          16       41.295370                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=    3 (  0.000000  0.000000  0.166667) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.857313                                       +
+  +           2       -1.149548                                       +
+  +           3        2.978094                                       +
+  +           4        2.989160                                       +
+  +           5       12.057886                                       +
+  +           6       14.266722                                       +
+  +           7       14.277065                                       +
+  +           8       17.525992                                       +
+  +           9       18.247214                                       +
+  +          10       28.026570                                       +
+  +          11       32.318594                                       +
+  +          12       34.962501                                       +
+  +          13       34.962667                                       +
+  +          14       38.394379                                       +
+  +          15       38.395483                                       +
+  +          16       42.873970                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=    4 (  0.000000  0.000000  0.250000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.753827                                       +
+  +           2       -1.820698                                       +
+  +           3        2.852487                                       +
+  +           4        2.864350                                       +
+  +           5       13.605829                                       +
+  +           6       14.216989                                       +
+  +           7       14.227750                                       +
+  +           8       17.236502                                       +
+  +           9       18.375214                                       +
+  +          10       28.264839                                       +
+  +          11       30.577731                                       +
+  +          12       33.913969                                       +
+  +          13       33.914110                                       +
+  +          14       37.224853                                       +
+  +          15       37.225509                                       +
+  +          16       40.338674                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=    5 (  0.000000  0.000000  0.333333) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.645536                                       +
+  +           2       -2.409010                                       +
+  +           3        2.834523                                       +
+  +           4        2.846581                                       +
+  +           5       14.249062                                       +
+  +           6       14.259932                                       +
+  +           7       15.342625                                       +
+  +           8       17.027646                                       +
+  +           9       18.485053                                       +
+  +          10       28.456867                                       +
+  +          11       28.755695                                       +
+  +          12       33.128137                                       +
+  +          13       33.128215                                       +
+  +          14       36.381204                                       +
+  +          15       36.381499                                       +
+  +          16       38.458985                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=    6 (  0.000000  0.000000  0.416667) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.562694                                       +
+  +           2       -2.805021                                       +
+  +           3        2.842305                                       +
+  +           4        2.854392                                       +
+  +           5       14.274506                                       +
+  +           6       14.285438                                       +
+  +           7       16.900132                                       +
+  +           8       16.947450                                       +
+  +           9       18.556068                                       +
+  +          10       26.943544                                       +
+  +          11       28.810764                                       +
+  +          12       32.659660                                       +
+  +          13       32.659678                                       +
+  +          14       35.865720                                       +
+  +          15       35.865794                                       +
+  +          16       37.293442                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=    7 (  0.000000  0.000000  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.531600                                       +
+  +           2       -2.944834                                       +
+  +           3        2.845258                                       +
+  +           4        2.857355                                       +
+  +           5       14.283986                                       +
+  +           6       14.294940                                       +
+  +           7       16.919943                                       +
+  +           8       17.595526                                       +
+  +           9       18.580420                                       +
+  +          10       26.194979                                       +
+  +          11       28.905120                                       +
+  +          12       32.501874                                       +
+  +          13       32.501876                                       +
+  +          14       35.692247                                       +
+  +          15       35.692248                                       +
+  +          16       36.895494                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=    8 ( -0.030303  0.060606  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.466917                                       +
+  +           2       -2.864565                                       +
+  +           3        2.689474                                       +
+  +           4        2.747857                                       +
+  +           5       14.423475                                       +
+  +           6       14.607116                                       +
+  +           7       16.680798                                       +
+  +           8       17.647199                                       +
+  +           9       18.717265                                       +
+  +          10       26.260277                                       +
+  +          11       29.155925                                       +
+  +          12       31.656813                                       +
+  +          13       32.011439                                       +
+  +          14       34.782289                                       +
+  +          15       36.552435                                       +
+  +          16       38.947366                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=    9 ( -0.060606  0.121212  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.273230                                       +
+  +           2       -2.625207                                       +
+  +           3        1.975162                                       +
+  +           4        2.405014                                       +
+  +           5       14.575771                                       +
+  +           6       15.342526                                       +
+  +           7       15.991705                                       +
+  +           8       17.792708                                       +
+  +           9       19.151634                                       +
+  +          10       26.437083                                       +
+  +          11       29.695009                                       +
+  +          12       29.844901                                       +
+  +          13       31.250082                                       +
+  +          14       34.658875                                       +
+  +          15       38.284922                                       +
+  +          16       41.917710                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   10 ( -0.090909  0.181818  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -12.951974                                       +
+  +           2       -2.226630                                       +
+  +           3        0.959983                                       +
+  +           4        1.756203                                       +
+  +           5       14.832298                                       +
+  +           6       14.955147                                       +
+  +           7       16.141346                                       +
+  +           8       18.003707                                       +
+  +           9       19.979848                                       +
+  +          10       26.698039                                       +
+  +          11       27.612277                                       +
+  +          12       30.699125                                       +
+  +          13       30.863832                                       +
+  +          14       34.997806                                       +
+  +          15       39.916543                                       +
+  +          16       44.484478                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   11 ( -0.121212  0.242424  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -12.503386                                       +
+  +           2       -1.677606                                       +
+  +           3       -0.147288                                       +
+  +           4        0.945749                                       +
+  +           5       13.677857                                       +
+  +           6       15.255424                                       +
+  +           7       16.836595                                       +
+  +           8       18.205785                                       +
+  +           9       21.262092                                       +
+  +          10       25.767919                                       +
+  +          11       27.016458                                       +
+  +          12       30.295138                                       +
+  +          13       32.052192                                       +
+  +          14       35.569696                                       +
+  +          15       40.385541                                       +
+  +          16       45.784535                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   12 ( -0.151515  0.303030  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -11.930769                                       +
+  +           2       -1.310074                                       +
+  +           3       -0.983451                                       +
+  +           4       -0.014996                                       +
+  +           5       12.270191                                       +
+  +           6       15.833332                                       +
+  +           7       17.394356                                       +
+  +           8       18.252566                                       +
+  +           9       22.882732                                       +
+  +          10       24.365660                                       +
+  +          11       27.344861                                       +
+  +          12       29.964136                                       +
+  +          13       33.177605                                       +
+  +          14       36.326738                                       +
+  +          15       40.052813                                       +
+  +          16       44.453229                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   13 ( -0.181818  0.363636  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -11.236748                                       +
+  +           2       -2.406518                                       +
+  +           3       -0.966018                                       +
+  +           4       -0.151135                                       +
+  +           5       10.859279                                       +
+  +           6       16.565159                                       +
+  +           7       17.901531                                       +
+  +           8       17.950180                                       +
+  +           9       23.635941                                       +
+  +          10       24.676977                                       +
+  +          11       27.595473                                       +
+  +          12       29.593697                                       +
+  +          13       33.997013                                       +
+  +          14       37.242467                                       +
+  +          15       39.756795                                       +
+  +          16       42.842126                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   14 ( -0.212121  0.424242  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -10.427619                                       +
+  +           2       -3.439507                                       +
+  +           3       -1.909860                                       +
+  +           4        0.801917                                       +
+  +           5        9.485410                                       +
+  +           6       17.247327                                       +
+  +           7       17.440887                                       +
+  +           8       18.407009                                       +
+  +           9       23.626065                                       +
+  +          10       26.478771                                       +
+  +          11       27.597606                                       +
+  +          12       29.107854                                       +
+  +          13       34.417569                                       +
+  +          14       38.258519                                       +
+  +          15       39.796492                                       +
+  +          16       41.300094                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   15 ( -0.242424  0.484848  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -9.524438                                       +
+  +           2       -4.391394                                       +
+  +           3       -2.817248                                       +
+  +           4        1.862696                                       +
+  +           5        8.215175                                       +
+  +           6       16.350292                                       +
+  +           7       18.457444                                       +
+  +           8       18.936730                                       +
+  +           9       24.130539                                       +
+  +          10       27.033959                                       +
+  +          11       28.122306                                       +
+  +          12       28.545956                                       +
+  +          13       34.633588                                       +
+  +          14       39.121578                                       +
+  +          15       39.824893                                       +
+  +          16       40.251023                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   16 ( -0.272727  0.545455  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -8.531225                                       +
+  +           2       -5.251413                                       +
+  +           3       -3.630169                                       +
+  +           4        2.957311                                       +
+  +           5        7.020159                                       +
+  +           6       15.524406                                       +
+  +           7       19.520292                                       +
+  +           8       19.545146                                       +
+  +           9       24.865686                                       +
+  +          10       25.898592                                       +
+  +          11       27.843898                                       +
+  +          12       29.470576                                       +
+  +          13       35.076356                                       +
+  +          14       38.503094                                       +
+  +          15       39.134489                                       +
+  +          16       41.004072                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   17 ( -0.303030  0.606061  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -7.509501                                       +
+  +           2       -6.011192                                       +
+  +           3       -4.295630                                       +
+  +           4        4.035768                                       +
+  +           5        5.950477                                       +
+  +           6       14.928552                                       +
+  +           7       20.164386                                       +
+  +           8       20.600224                                       +
+  +           9       24.373976                                       +
+  +          10       25.678931                                       +
+  +          11       27.121960                                       +
+  +          12       30.369180                                       +
+  +          13       35.779490                                       +
+  +          14       37.376625                                       +
+  +          15       38.717022                                       +
+  +          16       40.114846                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   18 ( -0.333333  0.666667  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -6.657704                                       +
+  +           2       -6.657693                                       +
+  +           3       -4.616536                                       +
+  +           4        4.993617                                       +
+  +           5        4.993621                                       +
+  +           6       14.699154                                       +
+  +           7       20.877325                                       +
+  +           8       20.877419                                       +
+  +           9       23.415962                                       +
+  +          10       26.417807                                       +
+  +          11       26.417812                                       +
+  +          12       30.718899                                       +
+  +          13       36.540144                                       +
+  +          14       36.540155                                       +
+  +          15       38.519054                                       +
+  +          16       39.747695                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   19 ( -0.333333  0.666667  0.416667) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -6.684930                                       +
+  +           2       -6.684921                                       +
+  +           3       -4.639065                                       +
+  +           4        5.117879                                       +
+  +           5        5.117883                                       +
+  +           6       14.869498                                       +
+  +           7       20.740375                                       +
+  +           8       20.740489                                       +
+  +           9       23.339633                                       +
+  +          10       26.123071                                       +
+  +          11       26.123071                                       +
+  +          12       30.669049                                       +
+  +          13       36.154691                                       +
+  +          14       36.977017                                       +
+  +          15       36.977035                                       +
+  +          16       42.048994                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   20 ( -0.333333  0.666667  0.333333) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -6.737023                                       +
+  +           2       -6.737015                                       +
+  +           3       -4.672814                                       +
+  +           4        5.426584                                       +
+  +           5        5.426589                                       +
+  +           6       15.362938                                       +
+  +           7       20.341270                                       +
+  +           8       20.341377                                       +
+  +           9       23.169417                                       +
+  +          10       25.442387                                       +
+  +          11       25.442395                                       +
+  +          12       30.657966                                       +
+  +          13       33.466839                                       +
+  +          14       38.050025                                       +
+  +          15       38.050043                                       +
+  +          16       44.241247                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   21 ( -0.333333  0.666667  0.250000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -6.812962                                       +
+  +           2       -6.812954                                       +
+  +           3       -4.726008                                       +
+  +           4        5.806845                                       +
+  +           5        5.806849                                       +
+  +           6       16.142297                                       +
+  +           7       19.668727                                       +
+  +           8       19.668819                                       +
+  +           9       22.841968                                       +
+  +          10       24.747988                                       +
+  +          11       24.748010                                       +
+  +          12       30.574784                                       +
+  +          13       31.103720                                       +
+  +          14       39.158388                                       +
+  +          15       39.158402                                       +
+  +          16       45.765548                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   22 ( -0.333333  0.666667  0.166667) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -6.881679                                       +
+  +           2       -6.881671                                       +
+  +           3       -4.775621                                       +
+  +           4        6.258132                                       +
+  +           5        6.258136                                       +
+  +           6       17.151673                                       +
+  +           7       18.926710                                       +
+  +           8       18.926786                                       +
+  +           9       22.297404                                       +
+  +          10       24.289635                                       +
+  +          11       24.289670                                       +
+  +          12       29.259484                                       +
+  +          13       30.559728                                       +
+  +          14       40.096204                                       +
+  +          15       40.096213                                       +
+  +          16       47.201711                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   23 ( -0.333333  0.666667  0.083333) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -6.934621                                       +
+  +           2       -6.934610                                       +
+  +           3       -4.828072                                       +
+  +           4        6.607818                                       +
+  +           5        6.607823                                       +
+  +           6       18.252533                                       +
+  +           7       18.316204                                       +
+  +           8       18.316238                                       +
+  +           9       21.507206                                       +
+  +          10       24.040776                                       +
+  +          11       24.040817                                       +
+  +          12       28.101896                                       +
+  +          13       30.550409                                       +
+  +          14       40.712719                                       +
+  +          15       40.712726                                       +
+  +          16       48.733046                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   24 ( -0.333333  0.666667  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -6.952091                                       +
+  +           2       -6.952080                                       +
+  +           3       -4.839673                                       +
+  +           4        6.788027                                       +
+  +           5        6.788033                                       +
+  +           6       18.093634                                       +
+  +           7       18.093689                                       +
+  +           8       18.915152                                       +
+  +           9       20.953111                                       +
+  +          10       23.964851                                       +
+  +          11       23.964895                                       +
+  +          12       27.718112                                       +
+  +          13       30.547250                                       +
+  +          14       40.983078                                       +
+  +          15       40.983084                                       +
+  +          16       49.155627                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   25 ( -0.303030  0.606061  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -7.818699                                       +
+  +           2       -6.278959                                       +
+  +           3       -4.508709                                       +
+  +           4        5.908842                                       +
+  +           5        7.671825                                       +
+  +           6       17.599993                                       +
+  +           7       18.145872                                       +
+  +           8       18.683399                                       +
+  +           9       21.167064                                       +
+  +          10       24.064879                                       +
+  +          11       24.267705                                       +
+  +          12       28.298979                                       +
+  +          13       30.377177                                       +
+  +          14       40.110261                                       +
+  +          15       41.262568                                       +
+  +          16       47.873605                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   26 ( -0.272727  0.545455  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -8.857688                                       +
+  +           2       -5.487450                                       +
+  +           3       -3.800312                                       +
+  +           4        4.957199                                       +
+  +           5        8.708963                                       +
+  +           6       16.582316                                       +
+  +           7       18.100150                                       +
+  +           8       18.195195                                       +
+  +           9       21.782757                                       +
+  +          10       24.365857                                       +
+  +          11       24.855066                                       +
+  +          12       29.807228                                       +
+  +          13       29.883859                                       +
+  +          14       39.194105                                       +
+  +          15       40.754309                                       +
+  +          16       46.855610                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   27 ( -0.242424  0.484848  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -9.858697                                       +
+  +           2       -4.599081                                       +
+  +           3       -2.962902                                       +
+  +           4        3.986382                                       +
+  +           5        9.827120                                       +
+  +           6       15.452019                                       +
+  +           7       17.525637                                       +
+  +           8       17.924587                                       +
+  +           9       22.718255                                       +
+  +          10       24.672851                                       +
+  +          11       25.708345                                       +
+  +          12       29.290294                                       +
+  +          13       31.701378                                       +
+  +          14       38.295976                                       +
+  +          15       39.915244                                       +
+  +          16       46.005461                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   28 ( -0.212121  0.424242  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -10.790609                                       +
+  +           2       -3.644362                                       +
+  +           3       -2.059810                                       +
+  +           4        2.997002                                       +
+  +           5       11.021424                                       +
+  +           6       14.343715                                       +
+  +           7       16.784384                                       +
+  +           8       17.651542                                       +
+  +           9       23.924194                                       +
+  +          10       24.481768                                       +
+  +          11       26.754702                                       +
+  +          12       29.029361                                       +
+  +          13       33.280690                                       +
+  +          14       37.423458                                       +
+  +          15       38.912974                                       +
+  +          16       45.071583                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   29 ( -0.181818  0.363636  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -11.611638                                       +
+  +           2       -2.587508                                       +
+  +           3       -1.093243                                       +
+  +           4        2.136926                                       +
+  +           5       12.284801                                       +
+  +           6       13.358185                                       +
+  +           7       16.087215                                       +
+  +           8       17.343249                                       +
+  +           9       23.502470                                       +
+  +          10       25.364508                                       +
+  +          11       27.921578                                       +
+  +          12       29.660461                                       +
+  +          13       34.270181                                       +
+  +          14       36.735210                                       +
+  +          15       38.034709                                       +
+  +          16       44.398913                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   30 ( -0.151515  0.303030  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -12.319458                                       +
+  +           2       -1.444006                                       +
+  +           3       -0.112212                                       +
+  +           4        1.382059                                       +
+  +           5       12.504569                                       +
+  +           6       13.598115                                       +
+  +           7       15.477939                                       +
+  +           8       16.988145                                       +
+  +           9       22.083230                                       +
+  +          10       27.008751                                       +
+  +          11       28.976877                                       +
+  +          12       30.916486                                       +
+  +          13       34.557406                                       +
+  +          14       36.224690                                       +
+  +          15       37.262335                                       +
+  +          16       43.920624                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   31 ( -0.121212  0.242424  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -12.904718                                       +
+  +           2       -0.284346                                       +
+  +           3        0.749278                                       +
+  +           4        0.818097                                       +
+  +           5       11.799936                                       +
+  +           6       14.904527                                       +
+  +           7       14.988514                                       +
+  +           8       16.532876                                       +
+  +           9       20.625800                                       +
+  +          10       28.785861                                       +
+  +          11       29.489316                                       +
+  +          12       32.547018                                       +
+  +          13       34.874683                                       +
+  +          14       35.933286                                       +
+  +          15       36.652637                                       +
+  +          16       43.380020                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   32 ( -0.090909  0.181818  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.363890                                       +
+  +           2        0.243948                                       +
+  +           3        0.844394                                       +
+  +           4        1.644276                                       +
+  +           5       11.250507                                       +
+  +           6       14.626379                                       +
+  +           7       15.928852                                       +
+  +           8       16.017560                                       +
+  +           9       19.377222                                       +
+  +          10       29.217704                                       +
+  +          11       30.628856                                       +
+  +          12       34.438759                                       +
+  +          13       35.868621                                       +
+  +          14       35.892098                                       +
+  +          15       36.209553                                       +
+  +          16       42.938120                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   33 ( -0.060606  0.121212  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.692996                                       +
+  +           2       -0.157079                                       +
+  +           3        1.852276                                       +
+  +           4        2.339346                                       +
+  +           5       10.858480                                       +
+  +           6       14.386583                                       +
+  +           7       15.176163                                       +
+  +           8       16.929164                                       +
+  +           9       18.556952                                       +
+  +          10       28.567885                                       +
+  +          11       32.329380                                       +
+  +          12       36.026993                                       +
+  +          13       36.113145                                       +
+  +          14       36.523900                                       +
+  +          15       37.420425                                       +
+  +          16       42.570586                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   34 ( -0.030303  0.060606  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.890916                                       +
+  +           2       -0.395079                                       +
+  +           3        2.635053                                       +
+  +           4        2.811513                                       +
+  +           5       10.625013                                       +
+  +           6       14.227396                                       +
+  +           7       14.489788                                       +
+  +           8       17.535426                                       +
+  +           9       18.134371                                       +
+  +          10       28.010884                                       +
+  +          11       33.479319                                       +
+  +          12       36.354311                                       +
+  +          13       36.507756                                       +
+  +          14       38.720974                                       +
+  +          15       39.157679                                       +
+  +          16       42.103401                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   35 (  0.000000  0.055556  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.883148                                       +
+  +           2       -0.386979                                       +
+  +           3        2.556635                                       +
+  +           4        2.743103                                       +
+  +           5       10.633816                                       +
+  +           6       14.219331                                       +
+  +           7       14.495069                                       +
+  +           8       17.499448                                       +
+  +           9       18.149579                                       +
+  +          10       28.035883                                       +
+  +          11       33.437489                                       +
+  +          12       36.215965                                       +
+  +          13       36.576441                                       +
+  +          14       38.491717                                       +
+  +          15       39.213237                                       +
+  +          16       41.757787                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   36 (  0.000000  0.111111  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.661275                                       +
+  +           2       -0.104403                                       +
+  +           3        1.711934                                       +
+  +           4        2.326512                                       +
+  +           5       10.896334                                       +
+  +           6       14.260214                                       +
+  +           7       15.435037                                       +
+  +           8       16.836599                                       +
+  +           9       18.593946                                       +
+  +          10       28.647752                                       +
+  +          11       32.300328                                       +
+  +          12       35.149138                                       +
+  +          13       36.022752                                       +
+  +          14       36.846755                                       +
+  +          15       37.801092                                       +
+  +          16       41.198450                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   37 (  0.000000  0.166667  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -13.292356                                       +
+  +           2        0.304062                                       +
+  +           3        0.496170                                       +
+  +           4        1.753327                                       +
+  +           5       11.331519                                       +
+  +           6       14.139249                                       +
+  +           7       15.833412                                       +
+  +           8       16.775456                                       +
+  +           9       19.312538                                       +
+  +          10       29.289980                                       +
+  +          11       30.788960                                       +
+  +          12       33.905565                                       +
+  +          13       34.032352                                       +
+  +          14       36.532378                                       +
+  +          15       37.675235                                       +
+  +          16       40.467338                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   38 (  0.000000  0.222222  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -12.778948                                       +
+  +           2       -0.914053                                       +
+  +           3        0.865767                                       +
+  +           4        1.168238                                       +
+  +           5       11.934944                                       +
+  +           6       13.920876                                       +
+  +           7       14.551993                                       +
+  +           8       18.484942                                       +
+  +           9       20.130015                                       +
+  +          10       29.199755                                       +
+  +          11       29.346363                                       +
+  +          12       32.852967                                       +
+  +          13       33.023234                                       +
+  +          14       35.434025                                       +
+  +          15       38.787236                                       +
+  +          16       39.733102                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   39 (  0.000000  0.277778  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -12.123273                                       +
+  +           2       -2.402125                                       +
+  +           3        0.505553                                       +
+  +           4        1.571167                                       +
+  +           5       12.676536                                       +
+  +           6       13.163180                                       +
+  +           7       13.683928                                       +
+  +           8       20.326609                                       +
+  +           9       20.781785                                       +
+  +          10       28.117920                                       +
+  +          11       28.238814                                       +
+  +          12       32.160834                                       +
+  +          13       32.983160                                       +
+  +          14       34.491018                                       +
+  +          15       38.936205                                       +
+  +          16       39.994461                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   40 (  0.000000  0.333333  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -11.334837                                       +
+  +           2       -3.933553                                       +
+  +           3        0.034153                                       +
+  +           4        2.389790                                       +
+  +           5       11.702510                                       +
+  +           6       13.174875                                       +
+  +           7       13.874776                                       +
+  +           8       20.809303                                       +
+  +           9       22.223781                                       +
+  +          10       27.156651                                       +
+  +          11       27.572520                                       +
+  +          12       31.488829                                       +
+  +          13       33.248706                                       +
+  +          14       33.731641                                       +
+  +          15       38.001871                                       +
+  +          16       41.142211                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   41 (  0.000000  0.388889  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1      -10.422968                                       +
+  +           2       -5.369393                                       +
+  +           3       -0.315416                                       +
+  +           4        3.275262                                       +
+  +           5       10.353367                                       +
+  +           6       13.076581                                       +
+  +           7       14.874754                                       +
+  +           8       20.085795                                       +
+  +           9       24.006908                                       +
+  +          10       26.480497                                       +
+  +          11       27.705224                                       +
+  +          12       31.005360                                       +
+  +          13       33.130369                                       +
+  +          14       33.239966                                       +
+  +          15       37.045500                                       +
+  +          16       42.135958                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   42 (  0.000000  0.444444  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -9.415596                                       +
+  +           2       -6.707015                                       +
+  +           3       -0.569448                                       +
+  +           4        4.124771                                       +
+  +           5        9.229267                                       +
+  +           6       12.970681                                       +
+  +           7       16.102833                                       +
+  +           8       18.844459                                       +
+  +           9       25.377604                                       +
+  +          10       26.064473                                       +
+  +          11       28.193322                                       +
+  +          12       30.696110                                       +
+  +          13       32.686326                                       +
+  +          14       33.022453                                       +
+  +          15       36.372477                                       +
+  +          16       42.885140                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   43 (  0.000000  0.500000  0.000000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -8.661123                                       +
+  +           2       -7.573305                                       +
+  +           3       -0.653492                                       +
+  +           4        4.474558                                       +
+  +           5        8.727997                                       +
+  +           6       12.932036                                       +
+  +           7       17.317255                                       +
+  +           8       17.592274                                       +
+  +           9       25.865092                                       +
+  +          10       25.923316                                       +
+  +          11       28.477804                                       +
+  +          12       30.587482                                       +
+  +          13       32.513886                                       +
+  +          14       32.856304                                       +
+  +          15       36.136365                                       +
+  +          16       42.529674                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   44 (  0.000000  0.500000  0.083333) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -8.640597                                       +
+  +           2       -7.555903                                       +
+  +           3       -0.592858                                       +
+  +           4        4.309503                                       +
+  +           5        8.537749                                       +
+  +           6       12.972855                                       +
+  +           7       17.652069                                       +
+  +           8       17.821593                                       +
+  +           9       25.886679                                       +
+  +          10       25.912286                                       +
+  +          11       28.437386                                       +
+  +          12       29.630983                                       +
+  +          13       32.873602                                       +
+  +          14       33.727128                                       +
+  +          15       36.467589                                       +
+  +          16       42.451017                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   45 (  0.000000  0.500000  0.166667) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -8.580863                                       +
+  +           2       -7.507962                                       +
+  +           3       -0.544689                                       +
+  +           4        3.921130                                       +
+  +           5        8.078389                                       +
+  +           6       13.070466                                       +
+  +           7       18.363407                                       +
+  +           8       18.595689                                       +
+  +           9       25.885492                                       +
+  +          10       25.916562                                       +
+  +          11       28.327302                                       +
+  +          12       28.361811                                       +
+  +          13       32.897295                                       +
+  +          14       35.724487                                       +
+  +          15       37.358954                                       +
+  +          16       41.000493                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   46 (  0.000000  0.500000  0.250000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -8.501058                                       +
+  +           2       -7.440890                                       +
+  +           3       -0.537294                                       +
+  +           4        3.437778                                       +
+  +           5        7.459358                                       +
+  +           6       13.203192                                       +
+  +           7       18.897353                                       +
+  +           8       19.981295                                       +
+  +           9       25.921511                                       +
+  +          10       26.100150                                       +
+  +          11       27.224953                                       +
+  +          12       28.095775                                       +
+  +          13       32.916139                                       +
+  +          14       37.765809                                       +
+  +          15       38.568653                                       +
+  +          16       39.151085                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   47 (  0.000000  0.500000  0.333333) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -8.418184                                       +
+  +           2       -7.371250                                       +
+  +           3       -0.520517                                       +
+  +           4        2.993628                                       +
+  +           5        6.945191                                       +
+  +           6       13.341416                                       +
+  +           7       19.221970                                       +
+  +           8       21.637442                                       +
+  +           9       25.930263                                       +
+  +          10       26.420949                                       +
+  +          11       26.693316                                       +
+  +          12       27.607297                                       +
+  +          13       32.926389                                       +
+  +          14       37.365042                                       +
+  +          15       39.481225                                       +
+  +          16       39.700848                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   48 (  0.000000  0.500000  0.416667) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -8.351079                                       +
+  +           2       -7.302650                                       +
+  +           3       -0.506464                                       +
+  +           4        2.711315                                       +
+  +           5        6.627337                                       +
+  +           6       13.462992                                       +
+  +           7       19.356882                                       +
+  +           8       23.388139                                       +
+  +           9       25.930361                                       +
+  +          10       25.958110                                       +
+  +          11       26.824994                                       +
+  +          12       27.451657                                       +
+  +          13       32.922682                                       +
+  +          14       36.077635                                       +
+  +          15       40.047067                                       +
+  +          16       40.450573                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   49 (  0.000000  0.500000  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -8.330014                                       +
+  +           2       -7.301010                                       +
+  +           3       -0.505203                                       +
+  +           4        2.571453                                       +
+  +           5        6.501590                                       +
+  +           6       13.501374                                       +
+  +           7       19.351102                                       +
+  +           8       24.420243                                       +
+  +           9       25.763072                                       +
+  +          10       25.942296                                       +
+  +          11       26.055122                                       +
+  +          12       27.752009                                       +
+  +          13       32.910186                                       +
+  +          14       35.573259                                       +
+  +          15       39.855087                                       +
+  +          16       40.715398                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   50 ( -0.066667  0.533333  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -8.261908                                       +
+  +           2       -7.228970                                       +
+  +           3       -0.838719                                       +
+  +           4        2.700539                                       +
+  +           5        6.499687                                       +
+  +           6       13.978432                                       +
+  +           7       18.700080                                       +
+  +           8       24.552037                                       +
+  +           9       24.857370                                       +
+  +          10       26.208824                                       +
+  +          11       27.208604                                       +
+  +          12       27.487645                                       +
+  +          13       33.420022                                       +
+  +          14       35.598524                                       +
+  +          15       38.737895                                       +
+  +          16       42.101833                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   51 ( -0.133333  0.566667  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -8.058792                                       +
+  +           2       -7.036193                                       +
+  +           3       -1.732014                                       +
+  +           4        2.992133                                       +
+  +           5        6.446750                                       +
+  +           6       15.304743                                       +
+  +           7       17.302600                                       +
+  +           8       23.772642                                       +
+  +           9       24.799481                                       +
+  +          10       26.710493                                       +
+  +          11       26.894027                                       +
+  +          12       28.408433                                       +
+  +          13       34.980983                                       +
+  +          14       35.652487                                       +
+  +          15       37.786293                                       +
+  +          16       41.196552                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   52 ( -0.200000  0.600000  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -7.728912                                       +
+  +           2       -6.736512                                       +
+  +           3       -2.930749                                       +
+  +           4        3.459607                                       +
+  +           5        6.252550                                       +
+  +           6       15.944303                                       +
+  +           7       17.128033                                       +
+  +           8       22.681902                                       +
+  +           9       25.187840                                       +
+  +          10       25.545853                                       +
+  +          11       27.184438                                       +
+  +          12       29.467668                                       +
+  +          13       35.761247                                       +
+  +          14       37.290601                                       +
+  +          15       37.449702                                       +
+  +          16       39.850460                                       +
+  + ----------------------------------------------------------------- +
+  +  Spin=1 kpt=   53 ( -0.266667  0.633333  0.500000) kpt-group=  1  +
+  + ----------------------------------------------------------------- +
+  +                                                                   +
+  +           1       -7.260763                                       +
+  +           2       -6.456378                                       +
+  +           3       -4.082290                                       +
+  +           4        4.133949                                       +
+  +           5        5.807680                                       +
+  +           6       15.016504                                       +
+  +           7       19.195536                                       +
+  +           8       21.748448                                       +
+  +           9       24.250028                                       +
+  +          10       25.740345                                       +
+  +          11       27.007929                                       +
+  +          12       30.332112                                       +
+  +          13       36.006288                                       +
+  +          14       37.039008                                       +
+  +          15       38.776420                                       +
+  +          16       40.289831                                       +
+  =====================================================================
+ 
+Writing model to opt_BandStr.orbitals
+ 
+ ***************** Symmetrised Forces *****************
+ *                                                    *
+ *            Cartesian components (eV/A)             *
+ * -------------------------------------------------- *
+ *                   x            y            z      *
+ *                                                    *
+ * C         1      0.00000      0.00000      0.00000 *
+ * C         2      0.00000      0.00000      0.00000 *
+ *                                                    *
+ ******************************************************
+ 
+Writing model to opt_BandStr.check
+ 
+Writing analysis data to opt_BandStr.castep_bin
+ 
+ A BibTeX formatted list of references used in this run has been written to 
+ opt_BandStr.bib
+ 
+Initialisation time =      0.48 s
+Calculation time    =     18.48 s
+Finalisation time   =      0.06 s
+Total time          =     19.03 s
