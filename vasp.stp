@@ -47,6 +47,11 @@
       <ID>{F58053B8-1361-4E8A-A005-357F9F7A08AE}</ID>
       <Paths>1</Paths>
       <URL>.\opt CASTEP Energy\opt.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
     </Document>
     <Document>
       <ID>{8D3FCB96-BD83-4EA0-A438-A70F656E6DF6}</ID>
@@ -73,6 +78,11 @@
       <Paths>1</Paths>
       <URL>.\opt CASTEP Energy\opt Band Structure.xcd</URL>
     </Document>
+    <Document>
+      <ID>{4C377A48-D0C8-4818-8920-AF143BBBD643}</ID>
+      <Paths>1</Paths>
+      <URL>.\opt CASTEP Energy\POSCAR.xsd</URL>
+    </Document>
   </DocumentManager>
   <ViewRegistry>
     <Frame>
@@ -90,9 +100,9 @@
       </View>
     </Frame>
     <Frame>
-      <Active>true</Active>
-      <Left>52</Left>
-      <Top>52</Top>
+      <Active>false</Active>
+      <Left>50</Left>
+      <Top>35</Top>
       <Width>890</Width>
       <Height>436</Height>
       <Maximized>false</Maximized>
@@ -115,6 +125,20 @@
         <Active>true</Active>
         <DocumentID>{C8FA1428-9295-4B7F-96BF-051596C56187}</DocumentID>
         <Type>SVTextViewer.TextViewer</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>true</Active>
+      <Left>26</Left>
+      <Top>26</Top>
+      <Width>838</Width>
+      <Height>317</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{4C377A48-D0C8-4818-8920-AF143BBBD643}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
       </View>
     </Frame>
   </ViewRegistry>

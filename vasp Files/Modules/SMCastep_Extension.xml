@@ -4,39 +4,6 @@
 <LOGICITEM NAME="Analysis">
 	<STATE NAME="Castep Analysis State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="PlotEELSSpectrum">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EELSEnergyUnits">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EELSLorentsFactor">
-	<VALUE>0.1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseEELSLorents">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EELSBroadening">
-	<VALUE>0.2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EELSSpectrum">
-	<VALUE>1s</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="AbsorptionOrEmission">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EELSGeometry">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EELSPolarization1">
-	<VALUE>1.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EELSPolarization2">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EELSPolarization3">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
 	<PROPERTY NAME="CoreLevelsWidths">
 	<VALUE>
 	<ITEM>-</ITEM>
@@ -159,93 +126,6 @@
 	<ITEM>-</ITEM>
 	</VALUE>
 	</PROPERTY>
-	<PROPERTY NAME="LoadELF">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="ELFCreateIsosurface">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="LoadDensity">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DensityType">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DensityCreateIsosurface">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="LoadPotential">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PotentialCreateIsosurface">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OrbitalsCreateIsosurface">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotBandStructure">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotBandStructureWithDOS">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotBandStructureWithPartialDOS">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="ImportFermiSurface">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotDOS">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotPartialDOS">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="ScissorsOperator">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotBSWithDOS">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotPhononDispWithDOS">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotThermodynamics">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotThermodynamicsWithDebye">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotDebyeTemperature">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="StartTemperature">
-	<VALUE>5.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EndTemperature">
-	<VALUE>1000.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotPhononDispersion">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotPhononDispersionWithDOS">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotPhononDispersionWithPartialDOS">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotPhononDOS">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotPartialPhononDOS">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononUnits">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhDOSFullOrPartial">
-	<VALUE>1</VALUE>
-	</PROPERTY>
 	<PROPERTY NAME="BandStructureGenerator">
 	<VALUE>SMXQMUtilities.BandStructureGenerator
 		<STATE NAME="QM Utilities band structure State" VERSION="6.0">
@@ -261,24 +141,6 @@
 		</PROPERTIES>
 		</STATE>
 	</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateSTMprofile">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="STMbias">
-	<VALUE>2.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="STMCreateIsosurface">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="LoadDensityDifference">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DensityDiffCreateIsosurface">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseLCAOforDensDiff">
-	<VALUE>true</VALUE>
 	</PROPERTY>
 	<PROPERTY NAME="PhononDispersionGenerator">
 	<VALUE>SMXQMUtilities.PhononDispersionGenerator
@@ -304,69 +166,6 @@
 	</PROPERTY>
 	<PROPERTY NAME="ElasticConstantsGenerator">
 	<VALUE>SMCastep.CastepCijAnalysis</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotRamanSpectrum">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="RamanInverseIntensity">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="RamanInverseEnergy">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="RamanUnits">
-	<VALUE>3</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="RamanFunction">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="RamanBroadening">
-	<VALUE>10.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="RamanTemperature">
-	<VALUE>10.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="RamanWaveLength">
-	<VALUE>514.5</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="AssignBondOrder">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="AssignCharges">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="AssignHirshfeldCharges">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="AssignEFG">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="AssignShielding">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="AssignSpins">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="AssignHirshfeldSpins">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateDielectricFunction">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateElasticConstants">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CreateTrajectory">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlotEnergyEvolution">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UpdateHessian">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UpdateStructure">
-	<VALUE>true</VALUE>
 	</PROPERTY>
 	<PROPERTY NAME="CoreLevelsSpinOrbits">
 	<VALUE>
@@ -490,344 +289,53 @@
 	<ITEM>-</ITEM>
 	</VALUE>
 	</PROPERTY>
-	<PROPERTY NAME="EELSUseSpinOrbit">
-	<VALUE>false</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="BandStructureGenerator">
 	<STATE NAME="QM Utilities band structure State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="BandLineStyle">
-	<VALUE>2</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="CASTEP">
 	<STATE NAME="CASTEP Setup State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="Task">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Quality">
-	<VALUE>2</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="DOSGenerator">
 	<STATE NAME="QM Utilities DOS Generator State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="FullOrPartial">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UsePartial">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PartialS">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PartialP">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PartialD">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PartialF">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PartialSum">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="SpinDisplay">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PreferredIntegrationMethod">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="SmearingWidth">
-	<VALUE>0.2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="InterpolationAccuracy">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="InterpolationBroadening">
-	<VALUE>5.e-002</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DOSorTOS">
-	<VALUE>1</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="DielectricFunctionGenerator">
 	<STATE NAME="Castep Optical Properties State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="OpticsGeometry">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OpticsSmearing">
-	<VALUE>0.5</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Polarization1">
-	<VALUE>1.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Polarization2">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Polarization3">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DrudeConductivity">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PlasmaFrequency">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DrudeDamping">
-	<VALUE>5.e-002</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OpticsPlotProperty">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OpticsUnits">
-	<VALUE>1</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="Dynamics">
 	<STATE NAME="Castep Molecular Dynamics State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="Temperature">
-	<VALUE>273.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="TimeStep">
-	<VALUE>1.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="NumSteps">
-	<VALUE>500</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Ensemble">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Thermostat">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Barostat">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CellOptimizationScheme">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CharCellTime">
-	<VALUE>1.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="LangevinConstant">
-	<VALUE>0.1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="NoseRatio">
-	<VALUE>1.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="NoseChainLength">
-	<VALUE>5</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="WavefunctionExtrapolation">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="FixCenterOfMass">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Sxx">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Sxy">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Sxz">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Syy">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Syz">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Szz">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="ElasticConstants">
 	<STATE NAME="CASTEP Elastic Constants State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="EnergyConvergence">
-	<VALUE>4.e-006</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EnergyConvergencePerCell">
-	<VALUE>1.e-003</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="ForceConvergence">
-	<VALUE>1.e-002</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DisplacementConvergence">
-	<VALUE>4.e-004</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="MaxIterations">
-	<VALUE>100</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="MaxStrain">
-	<VALUE>3.e-003</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="NumberStrains">
-	<VALUE>4</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseVolumeConservedStrain">
-	<VALUE>false</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="Electronic">
 	<STATE NAME="Castep Electronic State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="Charge">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Spin">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="SpinUnrestricted">
-	<VALUE>false</VALUE>
-	</PROPERTY>
 	<PROPERTY NAME="TheoryLevel">
 	<VALUE>2</VALUE>
 	</PROPERTY>
-	<PROPERTY NAME="LocalFunctional">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="NonLocalFunctional">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseLDAU">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseCustomEnergyCutoff">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EnergyCutoffQuality">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EnergyCutoff">
-	<VALUE>250.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseCustomFFT">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="FFTQuality">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="FFTFineGrid">
-	<VALUE>1.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="FFTParameterA">
-	<VALUE>12</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="FFTParameterB">
-	<VALUE>12</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="FFTParameterC">
-	<VALUE>12</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseBasisCorrection">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="BasisCorrectionMethod">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="NumBasisPoints">
-	<VALUE>3</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="BasisEnergyDerivative">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="SCFConvergence">
-	<VALUE>2.e-006</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="SCFConvergencePerCell">
-	<VALUE>1.e-004</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EnergyTolerancesScope">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="MaxSCFCycles">
-	<VALUE>100</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="SCFMinimizationAlgorithm">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="FixOccupancy">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Smearing">
-	<VALUE>0.1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OptimizeTotalSpin">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseFormalSpin">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="TotalSpinOptimizationDelay">
-	<VALUE>6</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="NumExtraBands">
-	<VALUE>4</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PercExtraBands">
-	<VALUE>20</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DensityMixingScheme">
-	<VALUE>3</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DIISHistory">
-	<VALUE>20</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DensityMixingAmplitude">
-	<VALUE>0.5</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DensityMixingCutoff">
-	<VALUE>1.5</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="SpinMixingAmplitude">
-	<VALUE>2.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="SpinMixingCutoff">
-	<VALUE>1.5</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseRMMDIIS">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Quality">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="KeepWFsInMemory">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OptStrategy">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="ElectronicConvergenceWindow">
-	<VALUE>3</VALUE>
-	</PROPERTY>
 	<PROPERTY NAME="UseDFTD">
 	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DFTDMethod">
-	<VALUE>1</VALUE>
 	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
@@ -835,151 +343,25 @@
 <LOGICITEM NAME="GeomOpt">
 	<STATE NAME="Castep Geometry Optimization State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="OptimizeCell">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CellOptimizationScheme">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EstBulkModulus">
-	<VALUE>3</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseDelocalizedCoords">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseLineSearch">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EnergyConvergence">
-	<VALUE>2.e-005</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EnergyConvergencePerCell">
-	<VALUE>1.e-003</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="ForceConvergence">
-	<VALUE>5.e-002</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DisplacementConvergence">
-	<VALUE>2.e-003</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="StressConvergence">
-	<VALUE>0.1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="MaxIterations">
-	<VALUE>100</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OptimizationAlgorithm">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="MaxDisplacement">
-	<VALUE>5.e-002</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DampingRecalculationFrequency">
-	<VALUE>30</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DampingAlgorithm">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="WavefunctionExtrapolation">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="FixCenterOfMass">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="TimeStep">
-	<VALUE>1.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="AutoTimeStep">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Sxx">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Sxy">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Sxz">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Syy">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Syz">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Szz">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="JobTemplate">
 	<STATE NAME="Castep Job Template State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="DataDistribution">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DownloadCheckFile">
-	<VALUE>false</VALUE>
-	</PROPERTY>
 	<PROPERTY NAME="QMJobTemplate">
 	<VALUE>SMXQMUtilities.QMJobTemplate
 		<STATE NAME="QMJobTemplate" VERSION="6.0">
 		<PROPERTIES>
-		<PROPERTY NAME="ServerName">
-		<VALUE></VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="TaskTypeDescription">
-		<VALUE></VALUE>
-		</PROPERTY>
 		<PROPERTY NAME="DaemonName">
 		<VALUE>My Computer</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="AutomateJobPrefix">
-		<VALUE>true</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="JobPrefix">
-		<VALUE></VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="LiveUpdateGraphs">
-		<VALUE>true</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="LiveUpdateModel">
-		<VALUE>true</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="LiveUpdateText">
-		<VALUE>true</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="LiveUpdateInterval">
-		<VALUE>60.</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="LeaveFilesOnServer">
-		<VALUE>false</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="ViewResults">
-		<VALUE>true</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="NotifyJobCompletion">
-		<VALUE>true</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="TaskOriginator">
-		<VALUE>DMol3</VALUE>
 		</PROPERTY>
 		<PROPERTY NAME="MpiRequested">
 		<VALUE>true</VALUE>
 		</PROPERTY>
-		<PROPERTY NAME="MpiNumProcessors">
-		<VALUE>1</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="QueueRequested">
-		<VALUE></VALUE>
-		</PROPERTY>
 		</PROPERTIES>
 		</STATE>
 	</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OptimizeNumberOfProcessors">
-	<VALUE>false</VALUE>
 	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
@@ -987,51 +369,12 @@
 <LOGICITEM NAME="KPointPathGenerator">
 	<STATE NAME="QM Utilities k-point path State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="KPointQuality">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="KPathType">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="KPointSeparation">
-	<VALUE>2.5e-002</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="KPointSetGenerator">
 	<STATE NAME="QM Utilities k-point set State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="KPointDerivation">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="KPointQuality">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="KPointOverallQuality">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="KPointSeparation">
-	<VALUE>5.e-002</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="ParameterA">
-	<VALUE>4</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="ParameterB">
-	<VALUE>4</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="ParameterC">
-	<VALUE>4</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OriginA">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OriginB">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OriginC">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
 	<PROPERTY NAME="DefaultDerivation">
 	<VALUE>
 	<ITEM>7.000000000000001e-002</ITEM>
@@ -1048,177 +391,39 @@
 	<ITEM>6.e-002</ITEM>
 	</VALUE>
 	</PROPERTY>
-	<PROPERTY NAME="UseInsulatorDerivation">
-	<VALUE>false</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="PhononDOSGenerator">
 	<STATE NAME="QM Utilities Phonon DOS Generator State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="PreferredIntegrationMethod">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="SmearingWidth">
-	<VALUE>0.1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="InterpolationAccuracy">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="InterpolationBroadening">
-	<VALUE>5.e-002</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononDOSNormalization">
-	<VALUE>1</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="PhononDispersionGenerator">
 	<STATE NAME="QM Utilities phonon dispersion State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="DispersionLineStyle">
-	<VALUE>2</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="Properties">
 	<STATE NAME="Castep Properties State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="KPointQuality">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="KPointSeparation">
-	<VALUE>5.e-002</VALUE>
-	</PROPERTY>
 	<PROPERTY NAME="BandStructure">
 	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DensityOfStates">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EELSProperties">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OpticalProperties">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PopulationAnalysis">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Stress">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononDispersion">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononProperties">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononDensityOfStates">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Polarizability">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DensityDifference">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="NMR">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="BandStructureUseNewXC">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="BandStructureTheoryLevel">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="BandStructureLocalFunctional">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="BandStructureNonLocalFunctional">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="BandStructureEigvalConvergence">
-	<VALUE>1.e-005</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="BandStructureNumExtraBands">
-	<VALUE>12</VALUE>
 	</PROPERTY>
 	<PROPERTY NAME="BandStructureKPGenerator">
 	<VALUE>SMXQMUtilities.KPointPathGenerator
 		<STATE NAME="QM Utilities k-point path State" VERSION="6.0">
 		<PROPERTIES>
-		<PROPERTY NAME="KPointQuality">
-		<VALUE>2</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPathType">
-		<VALUE>1</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPointSeparation">
-		<VALUE>2.5e-002</VALUE>
-		</PROPERTY>
 		</PROPERTIES>
 		</STATE>
 	</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DOSUseNewXC">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DOSTheoryLevel">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DOSLocalFunctional">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DOSNonLocalFunctional">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DOSEigvalConvergence">
-	<VALUE>1.e-005</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DOSNumExtraBands">
-	<VALUE>12</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculatePDOSinDOS">
-	<VALUE>false</VALUE>
 	</PROPERTY>
 	<PROPERTY NAME="DOSKPGenerator">
 	<VALUE>SMXQMUtilities.KPointSetGenerator
 		<STATE NAME="QM Utilities k-point set State" VERSION="6.0">
 		<PROPERTIES>
-		<PROPERTY NAME="KPointDerivation">
-		<VALUE>1</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPointQuality">
-		<VALUE>2</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPointOverallQuality">
-		<VALUE>2</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPointSeparation">
-		<VALUE>5.e-002</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="ParameterA">
-		<VALUE>4</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="ParameterB">
-		<VALUE>4</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="ParameterC">
-		<VALUE>4</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="OriginA">
-		<VALUE>0.</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="OriginB">
-		<VALUE>0.</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="OriginC">
-		<VALUE>0.</VALUE>
-		</PROPERTY>
 		<PROPERTY NAME="DefaultDerivation">
 		<VALUE>
 		<ITEM>7.000000000000001e-002</ITEM>
@@ -1235,65 +440,14 @@
 		<ITEM>6.e-002</ITEM>
 		</VALUE>
 		</PROPERTY>
-		<PROPERTY NAME="UseInsulatorDerivation">
-		<VALUE>false</VALUE>
-		</PROPERTY>
 		</PROPERTIES>
 		</STATE>
 	</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OpticsUseNewXC">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OpticsTheoryLevel">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OpticsLocalFunctional">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OpticsNonLocalFunctional">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OpticsEigvalConvergence">
-	<VALUE>1.e-005</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="OpticsNumExtraBands">
-	<VALUE>12</VALUE>
 	</PROPERTY>
 	<PROPERTY NAME="OpticsKPGenerator">
 	<VALUE>SMXQMUtilities.KPointSetGenerator
 		<STATE NAME="QM Utilities k-point set State" VERSION="6.0">
 		<PROPERTIES>
-		<PROPERTY NAME="KPointDerivation">
-		<VALUE>1</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPointQuality">
-		<VALUE>2</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPointOverallQuality">
-		<VALUE>2</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPointSeparation">
-		<VALUE>5.e-002</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="ParameterA">
-		<VALUE>4</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="ParameterB">
-		<VALUE>4</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="ParameterC">
-		<VALUE>4</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="OriginA">
-		<VALUE>0.</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="OriginB">
-		<VALUE>0.</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="OriginC">
-		<VALUE>0.</VALUE>
-		</PROPERTY>
 		<PROPERTY NAME="DefaultDerivation">
 		<VALUE>
 		<ITEM>7.000000000000001e-002</ITEM>
@@ -1310,51 +464,9 @@
 		<ITEM>6.e-002</ITEM>
 		</VALUE>
 		</PROPERTY>
-		<PROPERTY NAME="UseInsulatorDerivation">
-		<VALUE>false</VALUE>
-		</PROPERTY>
 		</PROPERTIES>
 		</STATE>
 	</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononDispConvergence">
-	<VALUE>1.e-005</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononDOSConvergence">
-	<VALUE>1.e-005</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PolarizabilityConvergence">
-	<VALUE>1.e-005</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Scissors">
-	<VALUE>0.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononDispCalcLOTO">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononDOSCalcLOTO">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononMethod">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononUseInterpolation">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononRcut">
-	<VALUE>5.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononInterpolationSeparation">
-	<VALUE>5.e-002</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PhononSystemType">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="BondAnalysisCutoff">
-	<VALUE>3.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculatePDOSinMain">
-	<VALUE>false</VALUE>
 	</PROPERTY>
 	<PROPERTY NAME="PhononDispersionKPGenerator">
 	<VALUE>SMXQMUtilities.KPointPathGenerator</VALUE>
@@ -1363,36 +475,6 @@
 	<VALUE>SMXQMUtilities.KPointSetGenerator
 		<STATE NAME="QM Utilities k-point set State" VERSION="6.0">
 		<PROPERTIES>
-		<PROPERTY NAME="KPointDerivation">
-		<VALUE>1</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPointQuality">
-		<VALUE>2</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPointOverallQuality">
-		<VALUE>2</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPointSeparation">
-		<VALUE>5.e-002</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="ParameterA">
-		<VALUE>4</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="ParameterB">
-		<VALUE>4</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="ParameterC">
-		<VALUE>4</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="OriginA">
-		<VALUE>0.</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="OriginB">
-		<VALUE>0.</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="OriginC">
-		<VALUE>0.</VALUE>
-		</PROPERTY>
 		<PROPERTY NAME="DefaultDerivation">
 		<VALUE>
 		<ITEM>7.000000000000001e-002</ITEM>
@@ -1409,71 +491,14 @@
 		<ITEM>6.e-002</ITEM>
 		</VALUE>
 		</PROPERTY>
-		<PROPERTY NAME="UseInsulatorDerivation">
-		<VALUE>false</VALUE>
-		</PROPERTY>
 		</PROPERTIES>
 		</STATE>
 	</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DensDiffGenerator">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="NMRtask">
-	<VALUE>3</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="NMRmaxCGsteps">
-	<VALUE>250</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="NMRSystemType">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Orbitals">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateELF">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EELSNumExtraBands">
-	<VALUE>12</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EELSEmax">
-	<VALUE>25.</VALUE>
 	</PROPERTY>
 	<PROPERTY NAME="EELSKPGenerator">
 	<VALUE>SMXQMUtilities.KPointSetGenerator
 		<STATE NAME="QM Utilities k-point set State" VERSION="6.0">
 		<PROPERTIES>
-		<PROPERTY NAME="KPointDerivation">
-		<VALUE>1</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPointQuality">
-		<VALUE>2</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPointOverallQuality">
-		<VALUE>2</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="KPointSeparation">
-		<VALUE>5.e-002</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="ParameterA">
-		<VALUE>4</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="ParameterB">
-		<VALUE>4</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="ParameterC">
-		<VALUE>4</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="OriginA">
-		<VALUE>0.</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="OriginB">
-		<VALUE>0.</VALUE>
-		</PROPERTY>
-		<PROPERTY NAME="OriginC">
-		<VALUE>0.</VALUE>
-		</PROPERTY>
 		<PROPERTY NAME="DefaultDerivation">
 		<VALUE>
 		<ITEM>7.000000000000001e-002</ITEM>
@@ -1490,18 +515,9 @@
 		<ITEM>6.e-002</ITEM>
 		</VALUE>
 		</PROPERTY>
-		<PROPERTY NAME="UseInsulatorDerivation">
-		<VALUE>false</VALUE>
-		</PROPERTY>
 		</PROPERTIES>
 		</STATE>
 	</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="EELSEigvalConvergence">
-	<VALUE>1.e-005</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Raman">
-	<VALUE>false</VALUE>
 	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
@@ -1509,24 +525,6 @@
 <LOGICITEM NAME="Pseudopotentials">
 	<STATE NAME="Castep Pseudopotential State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="PseudoPotentialFileFolder">
-	<VALUE>Resources\Quantum\Castep\Potentials\</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PseudoPotentialFileMask">
-	<VALUE>*</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DefaultPspotScheme">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseCustomPspots">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseCoreHoles">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="PspotRepresentation">
-	<VALUE>1</VALUE>
-	</PROPERTY>
 	<PROPERTY NAME="CustomPseudopotential">
 	<VALUE>
 	<ITEM>-</ITEM>
@@ -1648,18 +646,6 @@
 	<ITEM>-</ITEM>
 	<ITEM>-</ITEM>
 	</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="UseCustomRealSpaceTransformEnergy">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="RealSpaceTransformEnergy">
-	<VALUE>250.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="RealSpaceQuality">
-	<VALUE>2</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="ImposeRealSpaceTransformTolerance">
-	<VALUE>true</VALUE>
 	</PROPERTY>
 	<PROPERTY NAME="CustomCoreRadiusUSP">
 	<VALUE>
@@ -2035,144 +1021,18 @@
 <LOGICITEM NAME="QMJobTemplate">
 	<STATE NAME="QMJobTemplate" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="ServerName">
-	<VALUE></VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="TaskTypeDescription">
-	<VALUE></VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DaemonName">
-	<VALUE></VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="AutomateJobPrefix">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="JobPrefix">
-	<VALUE></VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="LiveUpdateGraphs">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="LiveUpdateModel">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="LiveUpdateText">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="LiveUpdateInterval">
-	<VALUE>60.</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="LeaveFilesOnServer">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="ViewResults">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="NotifyJobCompletion">
-	<VALUE>true</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="TaskOriginator">
-	<VALUE>DMol3</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="MpiRequested">
-	<VALUE>false</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="MpiNumProcessors">
-	<VALUE>1</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="QueueRequested">
-	<VALUE></VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="ScriptedCastep">
 	<STATE NAME="Castep Scripting State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="CalculateThermodynamics">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculatePhononDispersion">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculatePhononDOS">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateBandStructure">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateDOS">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateCoreLevelSpectrum">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateOptics">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateRaman">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculatePolarizability">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateNMR">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateCharge">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateSpin">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateBondOrder">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateChargeDensity">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateSpinDensity">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateDensityDifference">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculatePotential">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateSTMprofile">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CalculateELF">
-	<VALUE>0</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="ExtraParameters">
-	<VALUE></VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="AdjustSymmetry">
-	<VALUE>false</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
 <LOGICITEM NAME="TSSearch">
 	<STATE NAME="Castep Transition State Search State" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="RMSConvergence">
-	<VALUE>0.25</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="MaximumCGSteps">
-	<VALUE>20</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="NumberQSTCycles">
-	<VALUE>5</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="SearchMethod">
-	<VALUE>4</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="Quality">
-	<VALUE>2</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
