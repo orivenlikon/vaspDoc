@@ -19,7 +19,7 @@ ICHARG = 2                #  Non-self-consistent: GGA/LDA band structures
 
 
 #===================calculation speed and precision===============================#
-PREC    = Accurate  
+PREC    = Medium  
 #ALGO  = FAST          #  SCF minimisation algorithm; 38/48 combo
 # NGX   = 500           #  FFT grid mesh density; nice plots 
 # NGY   = 500           #  FFT grid mesh density 

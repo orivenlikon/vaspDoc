@@ -1,4 +1,4 @@
-#iINCAR is the central input file of VASP. It determines ’what to do and how to do it
+#INCAR is the central input file of VASP. It determines ’what to do and how to do it
 SYSTEM = NAME  
 #====================Initialisation===============================================#
 ISTART = 0                #  Read existing wavefunction; if there 
@@ -41,13 +41,13 @@ EDIFF     = 1E-04         #  SCF energy convergence; eV
 #=====================Ionic Relaxation=============================================#
 #EDIFFG = -1E-02           #  Ionic convergence; eV/AA 
 NSW    = 0             #  Max ionic steps 
-IBRION =  1               #  Algorithm: 0-MD; 1-Quasi-New; 2-CG 
+IBRION =  -1               #  Algorithm: 0-MD; 1-Quasi-New; 2-CG 
                           #
                           #
 ISIF   =  2               #  Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 7-Vol 
                           #
 #ISYM   =  2               #  Symmetry: 0=none; 2=GGA; 3=hybrids 
-ISMEAR =  -5               #  Gaussian smearing; metals:1 
+ISMEAR =  -5              #  Gaussian smearing; metals:1 
                           # 
                           #
 #SIGMA  =  0.1             #  Smearing value in eV; metals:0.2 
@@ -87,8 +87,8 @@ ISMEAR =  -5               #  Gaussian smearing; metals:1
 #LWAVE     = .FALSE.        # determine whether the orbitals--file WAVECAR 
 #LCHARG    = .FALSE.        # and the charge densities--file CHGCAR and CHG--are written
                           #     default is .TRUE.
-#EMAX=-15			#	
-#EMIN=25		#
+#EMAX=25			#	
+#EMIN=-15		#
 
 #-------------------------Decomposed Charge Density-------------------------------#
 # LPARD = .TRUE.          # Generate PARCHG 
