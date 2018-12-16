@@ -33,6 +33,61 @@
 <LOGICITEM NAME="SymmetryBuilderLogic">
 	<STATE NAME="SymmetryBuilderLogicState" VERSION="6.0">
 	<PROPERTIES>
+	<PROPERTY NAME="VacuumThickness">
+	<VALUE>20.</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ReorientAfterVacuumSlab">
+	<VALUE>1</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ReorientAfterVacuumSlabFlag">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="TransferSymmetry">
+	<VALUE>0</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="TransferSymmetryFlag">
+	<VALUE>false</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SourceDocumentID">
+	<VALUE>{D7A2BE71-B60B-47D0-AEE6-B6640F950D23}</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveRule">
+	<VALUE>Default</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="DangleBonds">
+	<VALUE>Neither</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveDirection">
+	<VALUE>
+	<ITEM>0</ITEM>
+	<ITEM>0</ITEM>
+	<ITEM>-1</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveUVector">
+	<VALUE>
+	<ITEM>1.</ITEM>
+	<ITEM>1.</ITEM>
+	<ITEM>0.</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveVVector">
+	<VALUE>
+	<ITEM>1.</ITEM>
+	<ITEM>0.</ITEM>
+	<ITEM>0.</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveOrigin">
+	<VALUE>
+	<ITEM>0.</ITEM>
+	<ITEM>0.</ITEM>
+	<ITEM>0.</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CleaveDepth">
+	<VALUE>1.</VALUE>
+	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>

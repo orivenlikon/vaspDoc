@@ -6,7 +6,7 @@
     <Document>
       <ID>{840E43E9-9A9F-4C52-8ECB-831F3735BB5B}</ID>
       <Paths>1</Paths>
-      <URL>.\graphite.xsd</URL>
+      <URL>.\graphene.xsd</URL>
       <Property>
         <Name>Visible</Name>
         <Type>11</Type>
@@ -22,16 +22,6 @@
       <ID>{BD50252E-163F-405D-B6CB-7F67727503F3}</ID>
       <Paths>1</Paths>
       <URL>.\grapheneMin.xsd</URL>
-      <Property>
-        <Name>Visible</Name>
-        <Type>11</Type>
-        <Value>-1</Value>
-      </Property>
-    </Document>
-    <Document>
-      <ID>{4EA35552-749A-43E0-ACA5-3C0F029A0739}</ID>
-      <Paths>1</Paths>
-      <URL>.\opt.xsd</URL>
       <Property>
         <Name>Visible</Name>
         <Type>11</Type>
@@ -93,19 +83,59 @@
         <Value>-1</Value>
       </Property>
     </Document>
+    <Document>
+      <ID>{A475E8BE-9FE3-4071-BB4C-DC7E78384C97}</ID>
+      <Paths>1</Paths>
+      <URL>.\h2o.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>0</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{D7A2BE71-B60B-47D0-AEE6-B6640F950D23}</ID>
+      <Paths>1</Paths>
+      <URL>.\graphene+h2o.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{41141F71-81E2-42C2-8C6A-6530038EA595}</ID>
+      <Paths>1</Paths>
+      <URL>.\CONTCAR.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{23C0EF75-F539-4C5B-83EA-2F300002E2F7}</ID>
+      <Paths>1</Paths>
+      <URL>.\h2o (2).xsd</URL>
+    </Document>
+    <Document>
+      <ID>{4185D4C1-63F5-49E1-AAC9-5875C524474F}</ID>
+      <Paths>1</Paths>
+      <URL>.\graphene (0 0 -1).xsd</URL>
+    </Document>
+    <Document>
+      <ID>{4C96E78E-E589-4F97-BA51-F2D47499581A}</ID>
+      <Paths>1</Paths>
+      <URL>.\graphene+h2o (0 0 -1).xsd</URL>
+    </Document>
   </DocumentManager>
   <ViewRegistry>
     <Frame>
       <Active>true</Active>
-      <Left>104</Left>
-      <Top>104</Top>
+      <Left>52</Left>
+      <Top>52</Top>
       <Width>864</Width>
       <Height>269</Height>
       <Maximized>false</Maximized>
-      <Minimized>false</Minimized>
+      <Minimized>true</Minimized>
       <View>
         <Active>true</Active>
-        <DocumentID>{E1893484-4719-4E95-A2BA-16A0B5E6E9FD}</DocumentID>
+        <DocumentID>{A475E8BE-9FE3-4071-BB4C-DC7E78384C97}</DocumentID>
         <Type>SVViewer3D.Viewer3DControl</Type>
       </View>
     </Frame>

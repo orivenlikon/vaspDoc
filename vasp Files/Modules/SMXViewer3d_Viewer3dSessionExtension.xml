@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<EXTENSION VERSION="6.0">
+<LOGICS>
+<LOGICITEM NAME="DisplayStyle">
+	<STATE NAME="Viewer3dDisplayStyleState" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="Labels">
+	<STATE NAME="Viewer3dLabelsState" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="FontColor">
+	<VALUE>65280</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SelectedProperties">
+	<VALUE>
+	<ITEM>ElementSymbol</ITEM>
+	</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="Lighting">
+	<STATE NAME="Viewer3dLightingState" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="MovementOptions">
+	<STATE NAME="Viewer3dMovementOptionsState" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="Options">
+	<STATE NAME="Viewer3dOptionsState" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="ColorMaterial">
+	<VALUE>false</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ShowScaleBar">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="Session">
+	<STATE NAME="Viewer3dSessionState" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+</LOGICS>
+</EXTENSION>

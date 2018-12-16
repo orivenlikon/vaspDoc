@@ -1,0 +1,33 @@
+if you use any of these potentials you need to put a reference to
+
+G. Kresse, and J. Joubert, 
+"From ultrasoft pseudopotentials to the projector augmented wave method",
+Phys. Rev. B {\bf 59}, 1758 (1999).
+
+
+UPDATES for Oct 2001 release
+============================
+
+ 1.8.2001 Ga updated, d reference energy set to 0.1
+ 1.8.2001 Sn updated, f reference energy set to -0.2
+ 1.8.2001 In NEW generated
+ 1.8.2001 Tl NEW generated
+ 1.8.2001 Bi NEW generated
+
+ 8.8.2001 V  updated, since it had a ghostate in the MD
+ 8.8.2001 Ti updated
+ 8.8.2001 Sc NEW generated
+
+ 7.9.2001 Te d&f potentials softened (23 instead 7)
+ 7.9.2001 I  d&f potentials softened (23 instead 7)
+         both yield now reliable lattice constants
+         at default cutoff
+ 7.9.2001 Sn d&f potentials softened (23 instead 7)
+ 8.1.2002 Mo_pv potential rengerated since a s ghostate
+          existed above the Fermi-level
+ 9.1.2002 Nb_pv potential rengerated since a s ghostate
+          existed above the Fermi-level
+21.1.2003 default cutoff for Li increased to 140
+21.1.2003 P S and Cl: default cutoffs increased
+21.1.2003 Mo, Tc, Hf, Ta, Re and Os generated
+21.1.2003 Si_h, P_h, S_h, Cl_h, Ga_h, Ge_h generated
