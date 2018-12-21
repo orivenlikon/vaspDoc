@@ -5,10 +5,34 @@
 	<STATE NAME="SMSketcher.AtomSketcher" VERSION="6.0">
 	<PROPERTIES>
 	<PROPERTY NAME="SketchAtom">
+	<VALUE>C</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="TargetElement">
 	<VALUE>H</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="FragmentName">
+	<VALUE>%CORE_FOLDER%\Resources\Fragments\Hydrocarbons\Methyl.xsd</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="FormalCharge">
+	<VALUE>0.</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Hybridization">
+	<VALUE>3</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Bond Type">
+	<VALUE>4</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Ring Size">
+	<VALUE>6</VALUE>
 	</PROPERTY>
 	<PROPERTY NAME="Sketch Counter">
 	<VALUE>5</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Replace Dummy">
+	<VALUE>false</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Dummy Element">
+	<VALUE>Fe</VALUE>
 	</PROPERTY>
 	</PROPERTIES>
 	</STATE>

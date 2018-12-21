@@ -17,11 +17,16 @@
       <ID>{06B366EA-B54F-428F-81B5-A905B2766AB9}</ID>
       <Paths>1</Paths>
       <URL>.\Catome.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
     </Document>
     <Document>
       <ID>{BD50252E-163F-405D-B6CB-7F67727503F3}</ID>
       <Paths>1</Paths>
-      <URL>.\grapheneMin.xsd</URL>
+      <URL>.\graphene33.xsd</URL>
       <Property>
         <Name>Visible</Name>
         <Type>11</Type>
@@ -123,19 +128,74 @@
       <Paths>1</Paths>
       <URL>.\graphene+h2o (0 0 -1).xsd</URL>
     </Document>
+    <Document>
+      <ID>{78F1FD7A-1E7C-4B30-9CEB-0EB46A728E92}</ID>
+      <Paths>1</Paths>
+      <URL>.\benzene.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{DE17B96F-1CD7-4C43-B527-1B3273191204}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneOpt+h20.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{C13FDFA1-40D1-4BB0-84D5-7DB57A43E282}</ID>
+      <Paths>1</Paths>
+      <URL>.\Recovered documents\Autosave of benzene.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{8489B371-61A6-428E-9AA6-0526D370BB9E}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneOpt+benzene.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{9D5A83D4-A000-40F9-B29C-A9EE0B31E097}</ID>
+      <Paths>1</Paths>
+      <URL>.\graphene33Opt+benzene.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{6CA45C37-309E-4AD0-84FD-E7F6DF1E1656}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneOpt+h2O.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{5294E5B8-8197-4393-BA22-9D60D1F48230}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneOpt+h2O (2).xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
   </DocumentManager>
   <ViewRegistry>
     <Frame>
       <Active>true</Active>
-      <Left>52</Left>
-      <Top>52</Top>
-      <Width>864</Width>
+      <Left>0</Left>
+      <Top>0</Top>
+      <Width>818</Width>
       <Height>269</Height>
       <Maximized>false</Maximized>
-      <Minimized>true</Minimized>
+      <Minimized>false</Minimized>
       <View>
         <Active>true</Active>
-        <DocumentID>{A475E8BE-9FE3-4071-BB4C-DC7E78384C97}</DocumentID>
+        <DocumentID>{5294E5B8-8197-4393-BA22-9D60D1F48230}</DocumentID>
         <Type>SVViewer3D.Viewer3DControl</Type>
       </View>
     </Frame>
