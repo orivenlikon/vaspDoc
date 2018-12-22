@@ -1,5 +1,5 @@
-data_h2o
-_audit_creation_date              2018-12-16
+data_h2o\(3)
+_audit_creation_date              2018-12-22
 _audit_creation_method            'Materials Studio'
 _symmetry_space_group_name_H-M    'P1'
 _symmetry_Int_Tables_number       1
@@ -22,9 +22,9 @@ _atom_site_fract_z
 _atom_site_U_iso_or_equiv
 _atom_site_adp_type
 _atom_site_occupancy
-O1     O     0.50000   0.50000   0.50000   0.00000  Uiso   1.00
-H2     H     0.48927   0.61030   0.49372   0.00000  Uiso   1.00
-H3     H     0.59651   0.50683   0.55440   0.00000  Uiso   1.00
+O1     O     0.25000   0.25000   0.20000   0.00000  Uiso   1.00
+H2     H     0.21300   0.32400   0.27400   0.00000  Uiso   1.00
+H3     H     0.36100   0.25000   0.20000   0.00000  Uiso   1.00
 loop_
 _geom_bond_atom_site_label_1
 _geom_bond_atom_site_label_2

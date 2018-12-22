@@ -183,10 +183,44 @@
         <Value>-1</Value>
       </Property>
     </Document>
+    <Document>
+      <ID>{01486DE3-B5DE-4CC3-A959-A58F7B221870}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneOpt.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{49C1D33E-0072-4C12-B004-85848CD018F9}</ID>
+      <Paths>1</Paths>
+      <URL>.\graphene33Opt.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
   </DocumentManager>
   <ViewRegistry>
     <Frame>
       <Active>true</Active>
+      <Left>49</Left>
+      <Top>93</Top>
+      <Width>818</Width>
+      <Height>269</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{01486DE3-B5DE-4CC3-A959-A58F7B221870}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
       <Left>0</Left>
       <Top>0</Top>
       <Width>818</Width>
@@ -195,7 +229,7 @@
       <Minimized>false</Minimized>
       <View>
         <Active>true</Active>
-        <DocumentID>{5294E5B8-8197-4393-BA22-9D60D1F48230}</DocumentID>
+        <DocumentID>{49C1D33E-0072-4C12-B004-85848CD018F9}</DocumentID>
         <Type>SVViewer3D.Viewer3DControl</Type>
       </View>
     </Frame>
