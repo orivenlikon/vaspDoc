@@ -203,19 +203,268 @@
         <Value>-1</Value>
       </Property>
     </Document>
+    <Document>
+      <ID>{D7B5844A-DFB4-4FBE-B2E4-4ED2A0278551}</ID>
+      <Paths>1</Paths>
+      <URL>.\graphene33 (0 0 1).xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{2C434DCA-9E0F-4B62-8D8F-F05B88A64376}</ID>
+      <Paths>1</Paths>
+      <URL>.\graphene33 (0 0 -1).xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{3ED59762-91AD-47D8-ADA1-942F383ED5FB}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneVopt.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{78391CB9-5140-4143-A6D8-B22F37A8AE3E}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneOpt+h2OC.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{2523FFF8-5339-431C-8C37-7AC51974CB76}</ID>
+      <Paths>1</Paths>
+      <URL>.\graphene10opt.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{C3674865-3818-4E1B-B321-06CF76605C9B}</ID>
+      <Paths>1</Paths>
+      <URL>.\graphene (2).xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{EA8A7C77-8300-4777-9C26-5D578FE15B6C}</ID>
+      <Paths>1</Paths>
+      <URL>.\graphene (2) (0 0 -1).xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{657D9E68-A994-483C-8E0A-CFA8E9E0E5FC}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneV22opt.xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{4BFD21BC-6341-468F-8B87-DBE3D48CF161}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneV22opt (2).xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{8340217A-3A73-4927-8A98-B13B48610321}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneVopt (2).xsd</URL>
+      <Property>
+        <Name>Visible</Name>
+        <Type>11</Type>
+        <Value>-1</Value>
+      </Property>
+    </Document>
+    <Document>
+      <ID>{252871DB-E146-40C9-ADED-18518B94B812}</ID>
+      <Paths>1</Paths>
+      <URL>.\CONTCARC.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{6716E664-6895-48EF-A924-2501DE3D1ED0}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneV22opt+h2oC.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{32B6B2E8-8AC0-4A4F-8EF6-BF01E9495FEC}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneV22opt+h2oL.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{2E985033-0AEF-4EFB-B480-E91CA780B81F}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneV22opt+h2oP.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{B6829330-5C45-4456-83C1-098F3E0DFB39}</ID>
+      <Paths>1</Paths>
+      <URL>.\CONTCARL.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{95200F35-132E-4BB0-97CD-FFE2F2A7BA99}</ID>
+      <Paths>1</Paths>
+      <URL>.\CONTCARP.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{83CCA324-3F8D-4BEE-955B-388B8F1A5315}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneV22opt+h2oP (2).xsd</URL>
+    </Document>
+    <Document>
+      <ID>{9D91C2C8-9D12-446D-B5BD-2EF2075DBDF2}</ID>
+      <Paths>1</Paths>
+      <URL>.\CONTCARC (2).xsd</URL>
+    </Document>
+    <Document>
+      <ID>{31A31412-4424-47E7-9E05-AEEFF54DB1D2}</ID>
+      <Paths>1</Paths>
+      <URL>.\CONTCARL (2).xsd</URL>
+    </Document>
+    <Document>
+      <ID>{20B8B115-D88B-48C5-96A7-5D6351356AE9}</ID>
+      <Paths>1</Paths>
+      <URL>.\CONTCARP (2).xsd</URL>
+    </Document>
+    <Document>
+      <ID>{92A08CC1-025F-44BE-A212-ABB42927C632}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneVopt+benzene1.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{5A101370-BE6E-4DD7-BD10-261B3F9460F7}</ID>
+      <Paths>1</Paths>
+      <URL>.\CONTCAR (2).xsd</URL>
+    </Document>
+    <Document>
+      <ID>{B7B618FD-EE73-4DCD-A3DE-F907F675A355}</ID>
+      <Paths>1</Paths>
+      <URL>.\grapheneVopt+benzene1 (2).xsd</URL>
+    </Document>
   </DocumentManager>
   <ViewRegistry>
     <Frame>
-      <Active>true</Active>
-      <Left>49</Left>
-      <Top>93</Top>
+      <Active>false</Active>
+      <Left>52</Left>
+      <Top>52</Top>
       <Width>818</Width>
       <Height>269</Height>
       <Maximized>false</Maximized>
       <Minimized>false</Minimized>
       <View>
         <Active>true</Active>
-        <DocumentID>{01486DE3-B5DE-4CC3-A959-A58F7B221870}</DocumentID>
+        <DocumentID>{8340217A-3A73-4927-8A98-B13B48610321}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>78</Left>
+      <Top>78</Top>
+      <Width>822</Width>
+      <Height>273</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{252871DB-E146-40C9-ADED-18518B94B812}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>52</Left>
+      <Top>52</Top>
+      <Width>770</Width>
+      <Height>337</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{6716E664-6895-48EF-A924-2501DE3D1ED0}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>78</Left>
+      <Top>78</Top>
+      <Width>770</Width>
+      <Height>337</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{32B6B2E8-8AC0-4A4F-8EF6-BF01E9495FEC}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>104</Left>
+      <Top>104</Top>
+      <Width>770</Width>
+      <Height>337</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{2E985033-0AEF-4EFB-B480-E91CA780B81F}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>130</Left>
+      <Top>130</Top>
+      <Width>770</Width>
+      <Height>337</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{B6829330-5C45-4456-83C1-098F3E0DFB39}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>156</Left>
+      <Top>156</Top>
+      <Width>770</Width>
+      <Height>337</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{95200F35-132E-4BB0-97CD-FFE2F2A7BA99}</DocumentID>
         <Type>SVViewer3D.Viewer3DControl</Type>
       </View>
     </Frame>
@@ -223,13 +472,97 @@
       <Active>false</Active>
       <Left>0</Left>
       <Top>0</Top>
-      <Width>818</Width>
-      <Height>269</Height>
+      <Width>770</Width>
+      <Height>337</Height>
       <Maximized>false</Maximized>
       <Minimized>false</Minimized>
       <View>
         <Active>true</Active>
-        <DocumentID>{49C1D33E-0072-4C12-B004-85848CD018F9}</DocumentID>
+        <DocumentID>{83CCA324-3F8D-4BEE-955B-388B8F1A5315}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>26</Left>
+      <Top>26</Top>
+      <Width>770</Width>
+      <Height>337</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{9D91C2C8-9D12-446D-B5BD-2EF2075DBDF2}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>52</Left>
+      <Top>52</Top>
+      <Width>770</Width>
+      <Height>337</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{31A31412-4424-47E7-9E05-AEEFF54DB1D2}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>78</Left>
+      <Top>78</Top>
+      <Width>770</Width>
+      <Height>337</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{20B8B115-D88B-48C5-96A7-5D6351356AE9}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>104</Left>
+      <Top>104</Top>
+      <Width>770</Width>
+      <Height>337</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{92A08CC1-025F-44BE-A212-ABB42927C632}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>true</Active>
+      <Left>130</Left>
+      <Top>130</Top>
+      <Width>770</Width>
+      <Height>337</Height>
+      <Maximized>true</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{5A101370-BE6E-4DD7-BD10-261B3F9460F7}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>156</Left>
+      <Top>156</Top>
+      <Width>770</Width>
+      <Height>337</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{B7B618FD-EE73-4DCD-A3DE-F907F675A355}</DocumentID>
         <Type>SVViewer3D.Viewer3DControl</Type>
       </View>
     </Frame>

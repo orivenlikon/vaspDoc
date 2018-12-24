@@ -34,7 +34,7 @@
 	<STATE NAME="SymmetryBuilderLogicState" VERSION="6.0">
 	<PROPERTIES>
 	<PROPERTY NAME="VacuumThickness">
-	<VALUE>20.</VALUE>
+	<VALUE>10.</VALUE>
 	</PROPERTY>
 	<PROPERTY NAME="ReorientAfterVacuumSlab">
 	<VALUE>1</VALUE>
@@ -49,13 +49,7 @@
 	<VALUE>false</VALUE>
 	</PROPERTY>
 	<PROPERTY NAME="SourceDocumentID">
-	<VALUE>{D7A2BE71-B60B-47D0-AEE6-B6640F950D23}</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="CleaveRule">
-	<VALUE>Default</VALUE>
-	</PROPERTY>
-	<PROPERTY NAME="DangleBonds">
-	<VALUE>Neither</VALUE>
+	<VALUE>{C3674865-3818-4E1B-B321-06CF76605C9B}</VALUE>
 	</PROPERTY>
 	<PROPERTY NAME="CleaveDirection">
 	<VALUE>
@@ -66,7 +60,7 @@
 	</PROPERTY>
 	<PROPERTY NAME="CleaveUVector">
 	<VALUE>
-	<ITEM>1.</ITEM>
+	<ITEM>0.</ITEM>
 	<ITEM>1.</ITEM>
 	<ITEM>0.</ITEM>
 	</VALUE>
@@ -85,8 +79,8 @@
 	<ITEM>0.</ITEM>
 	</VALUE>
 	</PROPERTY>
-	<PROPERTY NAME="CleaveDepth">
-	<VALUE>1.</VALUE>
+	<PROPERTY NAME="ResetCleaveOrientation">
+	<VALUE>true</VALUE>
 	</PROPERTY>
 	</PROPERTIES>
 	</STATE>

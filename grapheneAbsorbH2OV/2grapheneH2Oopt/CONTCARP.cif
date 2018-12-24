@@ -1,0 +1,43 @@
+#======================================================================
+
+# CRYSTAL DATA
+
+#----------------------------------------------------------------------
+
+data_VESTA_phase_1
+
+
+_pd_phase_name                         'grapheneV22opt\(2)                    '
+_cell_length_a                         4.93720
+_cell_length_b                         4.93720
+_cell_length_c                         9.99930
+_cell_angle_alpha                      90
+_cell_angle_beta                       90
+_cell_angle_gamma                      120.00020
+_symmetry_space_group_name_H-M         'P 1'
+_symmetry_Int_Tables_number            1
+
+loop_
+_symmetry_equiv_pos_as_xyz
+   'x, y, z'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_B_iso_or_equiv
+   _atom_site_type_symbol
+   C1         1.0     0.000000      0.000000      0.000000     Biso  1.000000 C
+   C2         1.0     0.166670      0.333330      0.000000     Biso  1.000000 C
+   C3         1.0     0.000000      0.500000      0.000000     Biso  1.000000 C
+   C4         1.0     0.166670      0.833330      0.000000     Biso  1.000000 C
+   C5         1.0     0.500000      0.000000      0.000000     Biso  1.000000 C
+   C6         1.0     0.666670      0.333330      0.000000     Biso  1.000000 C
+   C7         1.0     0.500000      0.500000      0.000000     Biso  1.000000 C
+   C8         1.0     0.666670      0.833330      0.000000     Biso  1.000000 C
+   O1         1.0     0.535219      0.613903      0.372502     Biso  1.000000 O
+   H1         1.0     0.371427      0.436286      0.324183     Biso  1.000000 H
+   H2         1.0     0.645068      0.526592      0.420801     Biso  1.000000 H

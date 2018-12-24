@@ -9,11 +9,12 @@ touch OUTCARcache
 else
 mv OUTCAR OUTCARcache
 fi
-for enc in 200 300 400 500
+for enc in 0.1 0.12 0.14 0.16 0.18 0.20 0.22 0.24 0.26 0.28 0.30
+#for enc in 200 300 400 500 600 700
 do
 cat > INCAR <<!
 SYSTEM = encutOpt
-ENCUT = $enc
+ENCUT = 500
 ISTART = 0
 ICHRGE =2
 
@@ -28,8 +29,9 @@ EDIFFG = -1E-02
 NSW = 500
 IBRION = 2
 ISIF = 2
-ISMEAR = -5
-SIGNA = 0.1
+ISMEAR = 0
+#SIGMA = 0.1
+SIGMA= $enc
 !
 #PREC    = Medium  			#** low medium high normal accurate 
 
@@ -54,18 +56,18 @@ SIGNA = 0.1
 
 echo "ENCUT= $enc eV"
 Enc=$enc
-for k in   6 
+for k in   4
 do
 cat > KPOINTS <<!
 Automatic generation
 0
 Gama Centered
-$k 	$k 	$k
+$k 	$k 	1
 0.0 0.0 0.0
 !
 echo "k mesh = $k x $k x $k"
 #qsub vasp.5.4.1.pbs
-nohup mpirun -np 1 vasp > out &
+nohup mpirun  vasp > out &
 sleep 3
 T=$(grep "Elapsed time" OUTCAR | tail -n 1)
 while [ -z "$T" ];do
@@ -75,7 +77,9 @@ while [ -z "$T" ];do
 done
 E=$(grep "TOTEN" OUTCAR | tail -n 1)
 KP=$(grep "irreducible" OUTCAR | tail -n 1)
-echo $Enc $k $KP $E $T >>EncutTest
-#echo $Enc $k $KP $E $T >>KpointTest
+SM=$(grep "EENTRO" OUTCAR | tail -n 1)
+#echo "0" $Enc $k $KP $E $T >>EncutTest
+#echo "0" $Enc $k $KP $E $T >>KpointTest
+echo $Enc $SM $k $KP $E $T >> SigmaTest
 done
 done

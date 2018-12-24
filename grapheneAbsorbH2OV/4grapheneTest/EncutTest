@@ -1,0 +1,10 @@
+400 2 Found 6 irreducible k-points: free energy TOTEN = -70.721781 eV Elapsed time (sec): 3.569
+400 4 Found 21 irreducible k-points: free energy TOTEN = -70.635405 eV Elapsed time (sec): 8.701
+400 6 Found 52 irreducible k-points: free energy TOTEN = -70.412586 eV Elapsed time (sec): 18.072
+400 8 Found 105 irreducible k-points: free energy TOTEN = -70.427803 eV Elapsed time (sec): 34.680
+400 10 Found 186 irreducible k-points: free energy TOTEN = -70.429724 eV Elapsed time (sec): 58.887
+0 400 2 Found 6 irreducible k-points: free energy TOTEN = -69.668956 eV Elapsed time (sec): 1.337
+0 400 4 Found 21 irreducible k-points: free energy TOTEN = -70.706163 eV Elapsed time (sec): 3.462
+0 400 6 Found 52 irreducible k-points: free energy TOTEN = -70.392356 eV Elapsed time (sec): 7.593
+0 400 8 Found 105 irreducible k-points: free energy TOTEN = -70.439383 eV Elapsed time (sec): 15.656
+0 400 10 Found 186 irreducible k-points: free energy TOTEN = -70.438644 eV Elapsed time (sec): 25.596

@@ -36,8 +36,23 @@
 <LOGICITEM NAME="Options">
 	<STATE NAME="Viewer3dOptionsState" VERSION="6.0">
 	<PROPERTIES>
-	<PROPERTY NAME="ShowScaleBar">
+	<PROPERTY NAME="Projection">
+	<VALUE>0</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="FieldOfViewAngle">
+	<VALUE>44.</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="RenderQuality">
+	<VALUE>9</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="FastRenderOnMove">
 	<VALUE>true</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ColorMaterial">
+	<VALUE>false</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="DepthCueIntensity">
+	<VALUE>2</VALUE>
 	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
