@@ -1,0 +1,40 @@
+/opt/intel/composer_xe_2013.5.192/bin/intel64/icc
+/opt/intel/composer_xe_2013.5.192/bin/intel64/icpc
+/opt/intel/composer_xe_2013.5.192/bin/intel64/ifort
+
+##intel icc icpc ifort
+
+vi ~/.bashrc 
+source /opt/intel/composer_xe_2013.5.192/bin/compilervars.sh intel64
+source ~/.bashrc
+
+##openmpi
+
+sudo ./configure CC=/opt/intel/composer_xe_2013.5.192/bin/intel64/icc CXX=/opt/intel/composer_xe_2013.5.192/bin/intel64/icpc FC=/opt/intel/composer_xe_2013.5.192/bin/intel64/ifort F77=/opt/intel/composer_xe_2013.5.192/bin/intel64/ifort
+
+make all install (make -j8 make install)
+
+sudo apt-get install mpich2
+
+vi ~/.bashrc 
+export PATH=/usr/local/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/lib/openmpi:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+source ~/.bashrc
+
+##vasp.5.lib
+
+vi Makefile
+
+CPP=gfortran
+FC =ifort
+FFLAGS = -O2 -FI
+make
+
+##vasp.5.2
+
+make
+vi ~/.bashrc 
+export PATH=/home/qsy/vasp.5.2:$PATH
+
+
